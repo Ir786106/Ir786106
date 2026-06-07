@@ -108,28 +108,6 @@ class MuhammadIrfanWaseem {
 
 ---
 
-### 🛒 Rizwan Shop — Multi-Vendor E-Commerce
-> **Role-based, multi-vendor e-commerce application**
-
-- 🏗️ Comprehensive multi-vendor architecture
-- 💰 Automated profit calculation systems
-- 📊 Complex business logic handling
-
-`Flutter` `Supabase` `Dart`
-
----
-
-### 👗 Velmora — Fashion E-Commerce
-> **Modern fashion e-commerce platform**
-
-- 🎯 Seamless user experience with smooth UI
-- 🗃️ Dynamic product database management
-- 📐 Structured data schemas
-
-`Flutter` `MongoDB` `Dart`
-
----
-
 ### 🧾 Saqib Shop — POS & Digital Ledger
 > **Custom Point of Sale and digital ledger mobile app**
 
@@ -152,16 +130,6 @@ class MuhammadIrfanWaseem {
 
 ---
 
-### 🤖 Itthad AI Integration
-> **AI algorithm integration for industrial mill optimization**
-
-- 🔍 Implemented BFS, DFS, and A* pathfinding algorithms
-- ⚙️ Optimized routing and processing logic
-
-`Python` `AI/Algorithms`
-
----
-
 ### 🏨 Hotel Management System
 > **Desktop application for hotel operations**
 
@@ -173,16 +141,6 @@ class MuhammadIrfanWaseem {
 
 ---
 
-### 🌐 Itthad Industries Web Portal
-> **Corporate web portal for a rice mill company**
-
-- 📋 Structured product catalog for B2B clients
-- 🌍 Django-powered admin dashboard
-- 📊 Web interface to monitor operations
-
-`HTML` `CSS` `JavaScript` `Django` `MySQL`
-
----
 
 ### 🖥️ Portfolio Website
 > **Personal developer portfolio with modern UI**
