@@ -238,7 +238,7 @@ class MuhammadIrfanWaseem {
 
 | Degree | Institution | Year |
 |--------|------------|------|
-| 📚 BS Computer Science *(6th Semester)* | COMSATS University Islamabad, Sahiwal Campus | 2023 – Present |
+| 📚 BS Computer Science  | COMSATS University Islamabad, Sahiwal Campus | 2023 – Present |
 | 📖 Intermediate in Computer Science | Misali Zakariya Group of Schools & Colleges | 2021 – 2023 |
 
 ---
