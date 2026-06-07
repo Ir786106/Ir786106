@@ -1,9 +1,48 @@
-### Hi there 👋, I'm Muhammad Irfan Waseem!
+# Hi there, I'm Muhammad Irfan Waseem 👋
 
-I'm a Computer Science undergraduate and a passionate **Flutter Developer** focused on building clean, responsive, and cross-platform mobile applications. 
+### Mobile App Developer (Flutter) | BSCS Student
 
-* 🔭 **Currently working on:** Advanced mobile solutions, E-commerce platforms, and cloud-based systems using Flutter and Firebase.
-* 🌱 **Exploring:** AI integrations, clean UI/UX design patterns, and Cybersecurity fundamentals.
-* 💻 **Tech Stack:** Flutter, Dart, Firebase, HTML/CSS, JavaScript, Python, C++, and MySQL.
-* 🚀 **Featured Projects:** Built comprehensive applications including `itthad_food_app` (inventory digitization), Mandi Pro ERP, and multi-vendor e-commerce platforms like Rizwan Shop.
-* 📫 **How to reach me:** [Your LinkedIn Profile URL] or muhammadirfan.infosec@gmail.com
+I am a passionate software developer specializing in cross-platform mobile application development using Flutter and Dart. Currently in my 6th semester pursuing a Bachelor of Science in Computer Science at COMSATS University Islamabad, Sahiwal Campus, I love building scalable, user-centric applications and exploring modern backend architectures.
+
+## 🚀 About Me
+
+* 🎓 **Education:** 6th-semester BSCS student at COMSATS University.
+* 💼 **Experience:** Recently completed a remote Android App Development Internship at ARCH Technology.
+* 🌱 **Currently Exploring:** Expanding my knowledge in AI integrations, Python, and foundational cybersecurity.
+* 💬 **Ask me about:** Flutter, Firebase, Supabase, and mobile UI/UX architecture.
+* 📫 **How to reach me:** [Insert your email address here]
+
+## 💻 Tech Stack & Tools
+
+* **Languages:** Dart, Python, C++
+* **Mobile Development:** Flutter
+* **Backend & Databases:** Firebase, Supabase, MongoDB
+* **Tools & Platforms:** Git, GitHub, VS Code, Android Studio, Linux
+
+## 🛠️ Featured Projects
+
+### [Rizwan Shop](#) *(Add repository link here)*
+A role-based, multi-vendor e-commerce application built to handle complex business logic.
+* **Tech:** Flutter, Supabase
+* **Features:** Comprehensive multi-vendor architecture and automated profit calculation systems.
+
+### [Velmora](#) *(Add repository link here)*
+A modern fashion e-commerce platform with a focus on seamless user experience.
+* **Tech:** Flutter, MongoDB
+* **Features:** Dynamic product database management and structured data schemas.
+
+### [Saqib Shop](#) *(Add repository link here)*
+A custom Point of Sale (POS) and digital ledger mobile application.
+* **Tech:** Flutter
+* **Features:** Tailored inventory tracking and digital ledger management for daily retail operations.
+
+## 📈 GitHub Stats
+
+<!-- You can generate your own stats cards at https://github.com/anuraghazra/github-readme-stats -->
+[![Irfan's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)](https://github.com/YOUR_GITHUB_USERNAME)
+
+## 🌐 Connect with Me
+
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+
+[linkedin]: https://www.linkedin.com/in/YOUR_LINKEDIN_URL/
