@@ -17,10 +17,13 @@
 <a href="mailto:irfanwaseem5628@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
+<a href="https://veilguardsecjournal.blogspot.com">
+  <img src="https://img.shields.io/badge/VeilGuard_Blog-FF6600?style=for-the-badge&logo=blogger&logoColor=white" />
+</a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Flutter+%26+Dart+Developer+%F0%9F%93%B1;Mobile+%26+Web+App+Builder+%F0%9F%9A%80;Firebase+%7C+Supabase+%7C+MongoDB;AI+Integration+Explorer+%F0%9F%A4%96;Cybersecurity+Enthusiast+%F0%9F%94%92;Always+Building%2C+Always+Learning+%F0%9F%92%AA" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Flutter+%26+Dart+Developer+%F0%9F%93%B1;Mobile+%26+Web+App+Builder+%F0%9F%9A%80;Firebase+%7C+Supabase+%7C+MongoDB;AI+Integration+Explorer+%F0%9F%A4%96;Cybersecurity+Enthusiast+%F0%9F%94%92;VeilGuard+Security+Blogger+%F0%9F%93%9D;Always+Building%2C+Always+Learning+%F0%9F%92%AA" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=Ir786106&label=Profile+Views&color=6C63FF&style=flat-square" alt="Profile views" />
 
@@ -257,6 +260,7 @@ Besides coding, I'm a **Graphic Designer** with 3+ years of experience:
 |----------|------|
 | 🌐 Portfolio | [ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio](https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/) |
 | 💼 LinkedIn | [linkedin.com/in/muhammad-irfan-waseem-48226b297](https://linkedin.com/in/muhammad-irfan-waseem-48226b297) |
+| 📝 Blog | [VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com) |
 | 🐦 X (Twitter) | [@Irfan_CyberSec](https://x.com/Irfan_CyberSec) |
 | 📧 Email | irfanwaseem5628@gmail.com |
 | 📞 Phone | +92 327 7121147 |
