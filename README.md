@@ -220,7 +220,7 @@ Besides coding, I'm a **Graphic Designer** with 3+ years of experience:
 | 💼 LinkedIn | [linkedin.com/in/muhammad-irfan-waseem-48226b297](https://linkedin.com/in/muhammad-irfan-waseem-48226b297) |
 | 📝 Blog | [VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com) |
 | 🐦 X (Twitter) | [@Irfan_CyberSec](https://x.com/Irfan_CyberSec) |
-| 📧 Email | irfanwaseem5628@gmail.com |
+| 📧 Email | muhammadirfan.infosec@gmail.com |
 | 📞 Phone | +92 327 7121147 |
 
 </div>
