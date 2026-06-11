@@ -67,8 +67,6 @@ class MuhammadIrfanWaseem {
 | Project | Stack | Status |
 |---------|-------|--------|
 | 🤖 **InterviewMate AI Pro** — AI-powered interview prep with 6 stages: MCQ → Written → Technical → HR → Audio → Video | MERN · FastAPI · Gemini API · Groq · MediaPipe | 🚧 Active |
-| 🚚 **TarseelX** — Pakistan-focused cargo & logistics platform with real-time tracking | React Native · Expo · Firebase · Tailwind CSS | 🚧 Active |
-
 ---
 
 ## 🛠️ Tech Stack & Tools
@@ -140,17 +138,6 @@ class MuhammadIrfanWaseem {
 
 ---
 
-### 🚚 TarseelX — Cargo Logistics Platform
-> **Pakistan-focused end-to-end cargo & logistics management platform**
-
-- 📦 Real-time shipment tracking & cargo management
-- 🔥 Firebase v10 backend with real-time sync
-- 📱 Cross-platform mobile app (React Native / Expo)
-- 🌐 Full marketing & admin website with Tailwind CSS & custom React hooks
-
-`React Native` `Expo` `Firebase` `React` `Tailwind CSS`
-
----
 
 ### 🏪 Mandi Pro ERP
 > **Full-scale ERP system for grain market & mandi businesses**
@@ -222,7 +209,7 @@ class MuhammadIrfanWaseem {
 
 | Role | Organization | Duration |
 |------|-------------|----------|
-| 🏢 Android App Developer Intern | ARCH Technology *(Remote)* | 2025 |
+| 🏢 Android App Developer Intern | ARCH Technology *(Remote)* | April 1, 2026 – May 26, 2026 (8 Weeks) |
 | 🎨 Freelance Graphic Designer | Self-Employed | 2021 – 2024 |
 | 📱 Social Media Manager | Facebook & Instagram | 2021 – 2023 |
 | 🎓 Class Representative | Misali Zakariya Schools & Colleges | 2021 – 2023 |
@@ -274,7 +261,7 @@ Running **[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com)
 ## 🎨 Creative Side
 
 Besides coding, I'm a **Graphic Designer** with 3+ years of experience:
-- 🖼️ Designed **posters, CVs, logos & branding materials** for 20+ clients
+- 🖼️ Designed **posters, CVs, logos & branding materials** for clients
 - 🛠️ Tools: Adobe Photoshop & Canva
 - ✅ Maintained 100% client satisfaction
 
