@@ -25,7 +25,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=Flutter+%26+Dart+Developer+%F0%9F%93%B1;MERN+Stack+%26+FastAPI+Builder+%F0%9F%9A%80;AI+Integration+%26+LLM+Explorer+%F0%9F%A4%96;React+Native+%7C+Expo+%7C+Firebase;Cybersecurity+Enthusiast+%F0%9F%94%92;VeilGuard+Security+Blogger+%F0%9F%93%9D;Always+Building%2C+Always+Learning+%F0%9F%92%AA" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=Ir786106&label=Profile+Views&color=6C63FF&style=flat-square" alt="Profile views" />
 
 </div>
 
