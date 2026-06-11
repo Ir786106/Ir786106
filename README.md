@@ -221,7 +221,7 @@ Besides coding, I'm a **Graphic Designer** with 3+ years of experience:
 | 📝 Blog | [VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com) |
 | 🐦 X (Twitter) | [@Irfan_CyberSec](https://x.com/Irfan_CyberSec) |
 | 📧 Email | muhammadirfan.infosec@gmail.com |
-| 📞 Phone | +92 327 7121147 |
+| 📞 Phone | +92 341 7224846 |
 
 </div>
 
