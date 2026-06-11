@@ -179,16 +179,16 @@ class MuhammadIrfanWaseem {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ir786106&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=6C63FF&icon_color=48CAE4&text_color=ffffff" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ir786106&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ir786106&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=6C63FF&icon_color=48CAE4&text_color=ffffff&v=1" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ir786106&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&v=1" width="40%" />
 
 </div>
-
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Ir786106&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=48CAE4" width="55%"/>
+<img src="https://streak-stats.demolab.com/?user=Ir786106&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=48CAE4&v=1" width="55%"/>
 
 </div>
+
 
 ---
 
