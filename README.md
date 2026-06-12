@@ -25,7 +25,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=Flutter+%26+Dart+Developer+%F0%9F%93%B1;MERN+Stack+%26+FastAPI+Builder+%F0%9F%9A%80;AI+Integration+%26+LLM+Explorer+%F0%9F%A4%96;React+Native+%7C+Expo+%7C+Firebase;Cybersecurity+Enthusiast+%F0%9F%94%92;VeilGuard+Security+Blogger+%F0%9F%93%9D;Always+Building%2C+Always+Learning+%F0%9F%92%AA" alt="Typing SVG" />
 
-
 </div>
 
 ---
@@ -66,6 +65,8 @@ class MuhammadIrfanWaseem {
 | Project | Stack | Status |
 |---------|-------|--------|
 | 🤖 **InterviewMate AI Pro** — AI-powered interview prep with 6 stages: MCQ → Written → Technical → HR → Audio → Video | MERN · FastAPI · Gemini API · Groq · MediaPipe | 🚧 Active |
+| 🚚 **TarseelX** — Pakistan-focused cargo & logistics platform with real-time tracking | React Native · Expo · Firebase · Tailwind CSS | 🚧 Active |
+
 ---
 
 ## 🛠️ Tech Stack & Tools
@@ -137,6 +138,17 @@ class MuhammadIrfanWaseem {
 
 ---
 
+### 🚚 TarseelX — Cargo Logistics Platform
+> **Pakistan-focused end-to-end cargo & logistics management platform**
+
+- 📦 Real-time shipment tracking & cargo management
+- 🔥 Firebase v10 backend with real-time sync
+- 📱 Cross-platform mobile app (React Native / Expo)
+- 🌐 Full marketing & admin website with Tailwind CSS & custom React hooks
+
+`React Native` `Expo` `Firebase` `React` `Tailwind CSS`
+
+---
 
 ### 🏪 Mandi Pro ERP
 > **Full-scale ERP system for grain market & mandi businesses**
@@ -208,7 +220,7 @@ class MuhammadIrfanWaseem {
 
 | Role | Organization | Duration |
 |------|-------------|----------|
-| 🏢 Android App Developer Intern | ARCH Technology *(Remote)* | April 1, 2026 – May 26, 2026 (8 Weeks) |
+| 🏢 Android App Developer Intern | ARCH Technology *(Remote)* | 2025 |
 | 🎨 Freelance Graphic Designer | Self-Employed | 2021 – 2024 |
 | 📱 Social Media Manager | Facebook & Instagram | 2021 – 2023 |
 | 🎓 Class Representative | Misali Zakariya Schools & Colleges | 2021 – 2023 |
@@ -219,13 +231,20 @@ class MuhammadIrfanWaseem {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ir786106&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=6C63FF&icon_color=48CAE4&text_color=ffffff" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ir786106&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ir786106&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=6C63FF&icon_color=48CAE4&text_color=ffffff&rank_icon=github" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ir786106&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&langs_count=8" width="37%" />
 
 </div>
+
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Ir786106&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=48CAE4" width="55%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Ir786106&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=48CAE4&sideNums=ffffff&sideLabels=48CAE4&dates=aaaaaa&stroke=6C63FF" width="55%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ir786106&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=48CAE4&point=48CAE4&area=true" width="95%"/>
 
 </div>
 
@@ -260,7 +279,7 @@ Running **[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com)
 ## 🎨 Creative Side
 
 Besides coding, I'm a **Graphic Designer** with 3+ years of experience:
-- 🖼️ Designed **posters, CVs, logos & branding materials** for clients
+- 🖼️ Designed **posters, CVs, logos & branding materials** for 20+ clients
 - 🛠️ Tools: Adobe Photoshop & Canva
 - ✅ Maintained 100% client satisfaction
 
