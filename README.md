@@ -35,7 +35,7 @@
 class MuhammadIrfanWaseem {
 
   final String role     = "Full-Stack & Mobile Developer";
-  final String degree   = "BS Computer Science — 6th Semester";
+  final String degree   = "BS Computer Science — 7th Semester";
   final String uni      = "COMSATS University Islamabad, Sahiwal Campus";
   final String location = "Arifwala, Punjab, Pakistan 🇵🇰";
 
@@ -140,7 +140,7 @@ class MuhammadIrfanWaseem {
 ### 🏪 Mandi Pro ERP
 > **Full-scale ERP system for grain market & mandi businesses**
 
-- 📌 Digitized manual khata and register-based record keeping
+- 📌 Digitized manual khata and register-based record-keeping
 - 📦 Modules: Sales, Purchases, Stock, Customers, Suppliers, Payments, Ledgers, Invoices, Reports
 - ☁️ Secure cloud-based data management with Firebase
 - 🔗 [View Repository](https://github.com/Ir786106/mandi-pro-erp)
