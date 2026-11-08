@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="102" viewBox="0 0 960 102" role="img" aria-labelledby="title desc">
+  <title id="title">View GitHub activity</title>
+  <desc id="desc">Open the live contributions and repositories on the GitHub profile.</desc>
+  <style>
+    .trace { stroke-dasharray: 44 640; animation: trace 5s linear infinite; }
+    @keyframes trace { to { stroke-dashoffset: -684; } }
+    @media (prefers-reduced-motion: reduce) { .trace { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="958" height="100" rx="20" fill="#10232F" stroke="#315563"/>
+  <g font-family="system-ui, Segoe UI, sans-serif">
+    <text x="43" y="45" fill="#E6F1F5" font-size="23" font-weight="700">View GitHub activity</text>
+    <text x="44" y="72" fill="#A8BFC9" font-size="15">Repositories, commits and contributions</text>
+  </g>
+  <path d="M470 59H548L565 40L587 77L608 50L624 59H906" fill="none" stroke="#3E6270" stroke-width="3"/>
+  <path class="trace" d="M470 59H548L565 40L587 77L608 50L624 59H906" fill="none" stroke="#77E6C4" stroke-width="4" stroke-linecap="round"/>
+</svg>

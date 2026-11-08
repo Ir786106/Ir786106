@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="306" viewBox="0 0 960 306" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Irfan Waseem</title>
+  <desc id="desc">Full-stack and mobile developer. Animated signals connect mobile, backend, AI, and security nodes.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0B1827"/><stop offset="1" stop-color="#122D36"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#70A4B1" stroke-opacity=".13"/></pattern>
+    <clipPath id="panel"><rect width="960" height="306" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .signal { stroke-dasharray: 18 240; animation: send 4.5s linear infinite; }
+    .signal.second { animation-delay: -2.2s; }
+    .orbit { transform-origin: 754px 154px; animation: orbit 16s linear infinite; }
+    .status { animation: breathe 3.4s ease-in-out infinite; }
+    @keyframes send { to { stroke-dashoffset: -258; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes breathe { 50% { opacity: .45; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .orbit, .status { animation: none; } }
+  </style>
+  <g clip-path="url(#panel)">
+    <rect width="960" height="306" fill="url(#background)"/>
+    <rect x="574" width="386" height="306" fill="url(#grid)"/>
+    <path d="M0 1H960" stroke="#77E6C4" stroke-opacity=".55" stroke-width="2"/>
+    <g font-family="system-ui, Segoe UI, sans-serif">
+      <circle class="status" cx="49" cy="52" r="5" fill="#77E6C4"/>
+      <text x="66" y="57" fill="#A8F4DC" font-size="15" font-weight="650" letter-spacing="2">DEVELOPER PORTFOLIO</text>
+      <text x="43" y="117" fill="#F4F9FC" font-size="46" font-weight="750">Muhammad Irfan</text>
+      <text x="43" y="170" fill="#F4F9FC" font-size="46" font-weight="750">Waseem</text>
+      <text x="47" y="215" fill="#C9DCE4" font-size="23">Full-stack &amp; mobile developer</text>
+      <text x="47" y="263" fill="#A8BFC9" font-size="15" letter-spacing="1.2">FLUTTER  /  FIREBASE  /  AI INTEGRATIONS</text>
+    </g>
+    <g fill="none" stroke-width="2">
+      <path d="M619 80H690L737 129M894 82H819L773 129M619 226H690L737 179M894 226H819L773 179" stroke="#4A6976"/>
+      <path class="signal" d="M619 80H690L737 129M773 179L819 226H894" stroke="#77E6C4"/>
+      <path class="signal second" d="M894 82H819L773 129M737 179L690 226H619" stroke="#FFCD83"/>
+      <circle cx="754" cy="154" r="65" stroke="#51878E" stroke-dasharray="3 8"/>
+      <circle cx="754" cy="154" r="40" fill="#173A42" stroke="#77E6C4"/>
+      <g class="orbit"><circle cx="754" cy="89" r="5" fill="#FFCD83" stroke="none"/><circle cx="754" cy="219" r="4" fill="#77E6C4" stroke="none"/></g>
+    </g>
+    <g font-family="Consolas, monospace" font-weight="700" text-anchor="middle">
+      <text x="754" y="162" fill="#E6FFF7" font-size="22">IW</text>
+      <text x="619" y="66" fill="#C9DCE4" font-size="12">MOBILE</text>
+      <text x="891" y="66" fill="#C9DCE4" font-size="12">BACKEND</text>
+      <text x="619" y="250" fill="#C9DCE4" font-size="12">AI</text>
+      <text x="891" y="250" fill="#C9DCE4" font-size="12">SECURITY</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="title desc">
+  <title id="title">Food Fight order workflow</title>
+  <desc id="desc">An animated order signal moves through checkout, kitchen preparation, rider delivery, and cash settlement.</desc>
+  <style>
+    .pulse { stroke-dasharray: 54 720; animation: dispatch 4s linear infinite; }
+    .node { animation: light 4s ease-in-out infinite; }
+    .two { animation-delay: 1s; } .three { animation-delay: 2s; } .four { animation-delay: 3s; }
+    @keyframes dispatch { to { stroke-dashoffset: -774; } }
+    @keyframes light { 0%, 100% { fill: #203B48; } 14% { fill: #77E6C4; } 30% { fill: #203B48; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .node { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="958" height="168" rx="20" fill="#10232F" stroke="#315563"/>
+  <g font-family="system-ui, Segoe UI, sans-serif">
+    <text x="44" y="39" fill="#A8F4DC" font-size="16" font-weight="700" letter-spacing="2">FOOD FIGHT / ORDER FLOW</text>
+    <path d="M110 89H850" stroke="#3E6270" stroke-width="3"/>
+    <path class="pulse" d="M110 89H850" stroke="#FFCD83" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="#A8F4DC" stroke-width="2">
+      <circle class="node" cx="110" cy="89" r="10" fill="#203B48"/>
+      <circle class="node two" cx="357" cy="89" r="10" fill="#203B48"/>
+      <circle class="node three" cx="603" cy="89" r="10" fill="#203B48"/>
+      <circle class="node four" cx="850" cy="89" r="10" fill="#203B48"/>
+    </g>
+    <g fill="#E6F1F5" font-size="19" font-weight="600" text-anchor="middle">
+      <text x="110" y="130">Checkout</text><text x="357" y="130">Kitchen</text>
+      <text x="603" y="130">Delivery</text><text x="850" y="130">Settlement</text>
+    </g>
+  </g>
+</svg>
