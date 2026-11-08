@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="60" viewBox="0 0 960 60" role="img" aria-labelledby="title">
+  <title id="title">Muhammad Irfan Waseem · portfolio footer</title>
+  <defs><clipPath id="edge"><rect width="960" height="60" rx="13"/></clipPath></defs>
+  <g clip-path="url(#edge)">
+    <rect width="960" height="60" fill="#0A1728"/>
+    <path d="M0 41Q160 8 320 41T640 41T960 41V60H0Z" fill="#184761">
+      <animate attributeName="d" values="M0 41Q160 8 320 41T640 41T960 41V60H0Z;M0 33Q160 57 320 33T640 33T960 33V60H0Z;M0 41Q160 8 320 41T640 41T960 41V60H0Z" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 2H960" stroke="#58D9EE" stroke-width="2" stroke-dasharray="45 470"><animate attributeName="stroke-dashoffset" from="0" to="-515" dur="5s" repeatCount="indefinite"/></path>
+  </g>
+</svg>

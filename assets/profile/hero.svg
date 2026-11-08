@@ -1,61 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title">
-<title id="title">Muhammad Irfan Waseem, mobile and full-stack developer</title>
-<style>
-
-.glow { animation: drift 10s ease-in-out infinite alternate; }
-.ring { transform-origin: 782px 209px; animation: rotate 27s linear infinite; }
-.ring.back { animation-direction: reverse; animation-duration: 39s; }
-.ping { animation: ping 4s ease-out infinite; transform-origin: 782px 209px; }
-.head { animation: arrive .9s cubic-bezier(.2,.7,.2,1) both; }
-.head.second { animation-delay: .16s; }
-.head.third { animation-delay: .28s; }
-.float { animation: drift 6s ease-in-out infinite alternate; }
-.float.two { animation-delay: -3s; }
-.sweep { animation: scan 6s linear infinite; }
-@keyframes drift { to { transform: translate(10px, -15px); } }
-@keyframes rotate { to { transform: rotate(360deg); } }
-@keyframes ping { 0% { transform: scale(.8); opacity: .8; } 75%,100% { transform: scale(1.55); opacity: 0; } }
-@keyframes arrive { from { transform: translateY(14px); opacity: 0; } }
-@keyframes scan { to { stroke-dashoffset: -230; } }
-
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-</style>
-<g font-family="system-ui, Segoe UI, sans-serif">
-
-<defs>
-  <clipPath id="frame"><rect width="1000" height="430" rx="28"/></clipPath>
-  <radialGradient id="violet"><stop stop-color="#6247BF" stop-opacity=".95"/><stop offset="1" stop-color="#100D23" stop-opacity="0"/></radialGradient>
-  <radialGradient id="peach"><stop stop-color="#F3A17B" stop-opacity=".43"/><stop offset="1" stop-color="#100D23" stop-opacity="0"/></radialGradient>
-  <linearGradient id="orb" x2="1" y2="1"><stop stop-color="#F6CEB3"/><stop offset=".42" stop-color="#A589FF"/><stop offset="1" stop-color="#542DA4"/></linearGradient>
-  <pattern id="dots" width="21" height="21" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#DED4FF" opacity=".22"/></pattern>
-</defs>
-<g clip-path="url(#frame)">
-  <rect width="1000" height="430" fill="#100D23"/>
-  <ellipse class="glow" cx="805" cy="154" rx="410" ry="275" fill="url(#violet)"/>
-  <ellipse class="glow" cx="910" cy="388" rx="340" ry="195" fill="url(#peach)"/>
-  <rect x="594" width="406" height="430" fill="url(#dots)"/>
-  <rect x="1" y="1" width="998" height="428" rx="27" fill="none" stroke="#7A68A4"/>
-  <path d="M53 345H947" stroke="#BFB3E4" opacity=".28"/>
-  <path class="sweep" d="M53 345H947" stroke="#E9B6A4" stroke-width="2" stroke-dasharray="24 206"/>
-  <g fill="none" stroke="#D9C7FF">
-    <circle class="ping" cx="782" cy="209" r="90"/>
-    <circle cx="782" cy="209" r="141" opacity=".24"/>
-    <circle cx="782" cy="209" r="111" opacity=".27" stroke-dasharray="3 7"/>
-    <g class="ring"><ellipse cx="782" cy="209" rx="150" ry="59" transform="rotate(-30 782 209)" opacity=".55"/><circle cx="911" cy="137" r="6" fill="#FFD6A8"/></g>
-    <g class="ring back"><ellipse cx="782" cy="209" rx="144" ry="74" transform="rotate(36 782 209)" opacity=".45"/><circle cx="674" cy="121" r="5" fill="#BB9FFF"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="255" viewBox="0 0 960 255" role="img" aria-labelledby="title">
+  <title id="title">Muhammad Irfan Waseem · Mobile and full-stack developer</title>
+  <defs>
+    <linearGradient id="ocean" x2="1" y2="1"><stop stop-color="#0A1728"/><stop offset="1" stop-color="#103650"/></linearGradient>
+    <linearGradient id="wave" x2="1" y2="0"><stop stop-color="#58D9EE" stop-opacity=".12"/><stop offset=".7" stop-color="#58D9EE" stop-opacity=".55"/><stop offset="1" stop-color="#087F98" stop-opacity=".24"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#7ABDD8" stroke-opacity=".1"/></pattern>
+    <clipPath id="frame"><rect width="960" height="255" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="255" fill="url(#ocean)"/>
+    <rect width="960" height="255" fill="url(#grid)"/>
+    <path d="M0 214C140 182 233 258 399 224S718 172 960 215V255H0Z" fill="url(#wave)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 214C140 182 233 258 399 224S718 172 960 215V255H0Z;M0 224C140 254 233 183 399 216S718 253 960 196V255H0Z;M0 214C140 182 233 258 399 224S718 172 960 215V255H0Z"/>
+    </path>
+    <g text-anchor="middle" font-family="system-ui, Segoe UI, sans-serif">
+      <text x="480" y="58" fill="#9FE9F4" font-size="17" font-weight="700" letter-spacing="4">MOBILE &amp; FULL-STACK DEVELOPMENT</text>
+      <text x="480" y="131" fill="#F4FAFF" font-size="57" font-weight="800" letter-spacing="-1.3">Muhammad Irfan Waseem</text>
+      <text x="480" y="174" fill="#BAD2E3" font-size="21">Flutter · Firebase · MERN</text>
+    </g>
   </g>
-  <circle cx="782" cy="209" r="70" fill="url(#orb)"/>
-  <path d="M732 210Q782 142 832 210Q782 276 732 210Z" fill="none" stroke="#FFF6EF" opacity=".55"/>
-  <text x="782" y="226" text-anchor="middle" fill="#1B1033" font-size="46" font-weight="850">IW</text>
-  <g class="float"><rect x="622" y="75" width="100" height="32" rx="16" fill="#241A44" stroke="#9D84F4"/><text x="672" y="96" text-anchor="middle" fill="#E5D9FF" font-size="13" font-weight="700">MOBILE</text></g>
-  <g class="float two"><rect x="850" y="278" width="99" height="32" rx="16" fill="#30203C" stroke="#D59D90"/><text x="899" y="299" text-anchor="middle" fill="#FFE3D0" font-size="13" font-weight="700">FULL STACK</text></g>
-  <circle cx="61" cy="59" r="5" fill="#E5B8F8"/>
-  <text x="78" y="65" fill="#E4D7FA" font-size="16" font-weight="700" letter-spacing="3">ENGINEERING PORTFOLIO</text>
-  <text class="head" x="50" y="148" fill="#FCF9FF" font-size="61" font-weight="800" letter-spacing="-2.4">Muhammad Irfan</text>
-  <text class="head second" x="50" y="219" fill="#FCF9FF" font-size="67" font-weight="800" letter-spacing="-2.4">Waseem</text>
-  <text class="head third" x="55" y="278" fill="#DED1FA" font-size="28" font-weight="530">Mobile &amp; full-stack developer</text>
-  <text x="55" y="394" fill="#F4D4C2" font-size="17" font-weight="700" letter-spacing="1.6">FLUTTER · FIREBASE · APPLIED AI</text>
-  <text x="947" y="394" text-anchor="end" fill="#D8CAF1" font-size="15" letter-spacing="1.2">PAKISTAN</text>
-</g>
-</g>
 </svg>

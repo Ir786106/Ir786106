@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="64" viewBox="0 0 650 64" role="img" aria-labelledby="title">
+  <title id="title">Flutter Developer · MERN Stack Developer · Cybersecurity Enthusiast</title>
+  <defs><clipPath id="typing"><rect x="36" y="0" width="578" height="64"><animate attributeName="width" values="0;578;578;0" keyTimes="0;.32;.86;1" dur="3.6s" repeatCount="indefinite"/></rect></clipPath></defs>
+  <rect x="1" y="1" width="648" height="62" rx="15" fill="#0D1B2C" stroke="#25405A"/>
+  <g font-family="ui-monospace, Consolas, monospace" font-size="23" font-weight="650" fill="#9FE9F4" clip-path="url(#typing)">
+    <text x="36" y="40">Flutter Developer<animate attributeName="opacity" values="1;0;0;1" keyTimes="0;.333333;.666667;1" calcMode="discrete" dur="10.8s" repeatCount="indefinite"/></text>
+    <text x="36" y="40" opacity="0">MERN Stack Developer<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.333333;.666667;1" calcMode="discrete" dur="10.8s" repeatCount="indefinite"/></text>
+    <text x="36" y="40" opacity="0">Cybersecurity Enthusiast<animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.333333;.666667;1" calcMode="discrete" dur="10.8s" repeatCount="indefinite"/></text>
+  </g>
+  <circle cx="612" cy="32" r="4" fill="#58D9EE"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+</svg>

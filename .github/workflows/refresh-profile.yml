@@ -1,0 +1,40 @@
+name: Refresh GitHub profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Refresh GitHub activity and statistics
+        run: node scripts/update-activity.mjs
+        env:
+          PROFILE_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Refresh latest blog posts
+        shell: pwsh
+        run: ./scripts/update-blog.ps1
+        continue-on-error: true
+      - name: Commit changed profile content
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/profile/activity-*.svg assets/profile/stats-*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh profile activity and writing'
+          git push
