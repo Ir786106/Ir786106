@@ -12,7 +12,8 @@
 | Change | File or value |
 | --- | --- |
 | Name, location, education, work availability | Intro and **About me** in `README.md`; visible name and accessible title in `assets/profile/hero.svg`. |
-| Portrait | The embedded JPEG and crop viewBox in `assets/profile/hero.svg`. The frame and portrait movement use SVG animations. |
+| Portrait | The embedded anime illustration and its image placement in `assets/profile/hero.svg`. The illustration is based on the supplied portrait, and the header uses SVG animations for motion. |
+| Focus areas | **What I build** in `README.md` and the labels in `assets/profile/focus.svg`. |
 | Role text and typing timing | Three text elements, opacity timelines, and clip width in `assets/profile/typing.svg`. |
 | Portfolio, journal, X, email, LinkedIn | Contact links in `README.md` and labels in `assets/profile/badge-*.svg`. |
 | Project names, stacks, and repo links | Four cards in **Featured projects** in `README.md`. |

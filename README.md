@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="assets/profile/hero.svg" width="100%" alt="Animated portrait of Muhammad Irfan Waseem, freelance Flutter and full-stack developer">
+  <img src="assets/profile/hero.svg" width="100%" alt="Anime illustration of Muhammad Irfan Waseem at a development workstation, with a mobile app, code editor, and security monitor">
   <img src="assets/profile/typing.svg" width="650" alt="Flutter Developer · MERN Stack Developer · Cybersecurity Enthusiast">
   <p>
-    I build and ship Flutter apps for delivery, retail, and business operations.<br>
-    Freelance Flutter developer since January 2025 · CS undergraduate at COMSATS University Islamabad, Sahiwal Campus · Class of 2027.
+    I build Flutter apps for delivery and business operations, and develop the APIs and data models behind them.<br>
+    Freelance Flutter developer since January 2025 · COMSATS University Islamabad, Sahiwal Campus · Class of 2027.
   </p>
   <p>
     <a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/"><img src="assets/profile/badge-portfolio.svg" alt="Portfolio"></a>
@@ -14,11 +14,15 @@
   </p>
 </div>
 
-## About me
+## What I build
 
-Based in Punjab, Pakistan. I build role-based mobile apps with Flutter and Firebase, and web applications with the MERN stack. My current focus is order and inventory workflows, with React Native and Expo for cross-platform projects.
+<img src="assets/profile/focus.svg" width="100%" alt="Animated overview of app development, software engineering and cybersecurity writing">
 
-I’m open to Flutter freelance work, software development internships, and collaboration on mobile and full-stack projects.
+- **App development.** I build Flutter and React Native apps for workflows such as ordering, delivery, and inventory.
+- **Software engineering.** I work with MERN and Firebase on role-based access, backend validation, and applications that need live data.
+- **Cybersecurity.** I publish practical security notes and tool walkthroughs at [VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/).
+
+Based in Punjab, Pakistan. Open to Flutter freelance work, software development internships, and collaboration.
 
 ## Tech stack
 
@@ -78,9 +82,9 @@ I’m open to Flutter freelance work, software development internships, and coll
   </picture>
 </a>
 
-## Writing
+## Cybersecurity writing
 
-**[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)** is where I publish notes on cybersecurity, tools, and hands-on learning.
+**[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)** covers cybersecurity topics, practical tools, and what I learn from hands-on work.
 
 <!-- BLOG:START -->
 <ul>
