@@ -6,10 +6,10 @@
     Freelance Flutter developer since January 2025 · CS undergraduate at COMSATS University Islamabad, Sahiwal Campus · Class of 2027.
   </p>
   <p>
-    <a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/"><img src="https://img.shields.io/badge/Portfolio-0E7490?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio"></a>
-    <a href="https://veilguardsecjournal.blogspot.com/"><img src="https://img.shields.io/badge/VeilGuard_Journal-0E7490?style=flat-square&amp;logo=blogger&amp;logoColor=white" alt="VeilGuard Security Journal"></a>
-    <a href="https://x.com/Irfan_CyberSec"><img src="https://img.shields.io/badge/%40Irfan__CyberSec-0E7490?style=flat-square&amp;logo=x&amp;logoColor=white" alt="@Irfan_CyberSec on X"></a>
-    <a href="mailto:muhammadirfan.infosec@gmail.com"><img src="https://img.shields.io/badge/Email-0E7490?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email Muhammad Irfan Waseem"></a>
+    <a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/"><img src="assets/profile/badge-portfolio.svg" alt="Portfolio"></a>
+    <a href="https://veilguardsecjournal.blogspot.com/"><img src="assets/profile/badge-journal.svg" alt="VeilGuard Security Journal"></a>
+    <a href="https://x.com/Irfan_CyberSec"><img src="assets/profile/badge-social.svg" alt="@Irfan_CyberSec on X"></a>
+    <a href="mailto:muhammadirfan.infosec@gmail.com"><img src="assets/profile/badge-email.svg" alt="Email Muhammad Irfan Waseem"></a>
     <img src="https://komarev.com/ghpvc/?username=Ir786106&amp;style=flat-square&amp;color=0e7490&amp;label=Profile+views" alt="Profile view count">
   </p>
 </div>
