@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — Mobile and full-stack developer">
+  <img src="assets/profile/hero.svg" width="100%" alt="Animated portrait of Muhammad Irfan Waseem, freelance Flutter and full-stack developer">
   <img src="assets/profile/typing.svg" width="650" alt="Flutter Developer · MERN Stack Developer · Cybersecurity Enthusiast">
   <p>
     I build and ship Flutter apps for delivery, retail, and business operations.<br>

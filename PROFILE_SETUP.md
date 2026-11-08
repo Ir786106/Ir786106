@@ -12,6 +12,7 @@
 | Change | File or value |
 | --- | --- |
 | Name, location, education, work availability | Intro and **About me** in `README.md`; visible name and accessible title in `assets/profile/hero.svg`. |
+| Portrait | The embedded JPEG and crop viewBox in `assets/profile/hero.svg`. The frame and portrait movement use SVG animations. |
 | Role text and typing timing | Three text elements, opacity timelines, and clip width in `assets/profile/typing.svg`. |
 | Portfolio, journal, X, email, LinkedIn | Contact links in `README.md` and labels in `assets/profile/badge-*.svg`. |
 | Project names, stacks, and repo links | Four cards in **Featured projects** in `README.md`. |
