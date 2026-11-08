@@ -72,7 +72,7 @@ const themes = {
 for (const [theme, c] of Object.entries(themes)) {
   const stats = [
     ['Contributions', calendar.totalContributions],
-    ['Public projects', owned.length],
+    ['Public repos', owned.length],
     ['Current streak', current + 'd'],
     ['Longest streak', longest + 'd'],
   ];
@@ -86,7 +86,7 @@ for (const [theme, c] of Object.entries(themes)) {
     const bar = Math.round(280 * count / top[0][1]);
     return `<text x="26" y="${y+5}" fill="${c.ink}" font-size="14">${escape(language)}</text>
 <rect x="175" y="${y-5}" width="${bar}" height="8" rx="4" fill="${c.accent}"><animate attributeName="width" from="0" to="${bar}" dur="0.85s" fill="freeze"/></rect>
-<text x="475" y="${y+5}" fill="${c.muted}" font-size="13">${count} repos</text>`;
+<text x="475" y="${y+5}" fill="${c.muted}" font-size="13">${count} ${count === 1 ? 'repo' : 'repos'}</text>`;
   }).join('');
   const statsTitle = `GitHub activity over the last year: ${stats.map(([label,value]) => label + ' ' + value).join(', ')}. Primary languages: ${top.map(([language])=>language).join(', ')}.`;
   writeFileSync(`assets/profile/stats-${theme}.svg`, wrap(statsTitle, 720, 253, `

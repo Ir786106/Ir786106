@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="92" viewBox="0 0 960 92" role="img" aria-labelledby="title">
+  <title id="title">Food Fight workflow: checkout, kitchen, rider delivery, and cash settlement</title>
+  <rect x="1" y="1" width="958" height="90" rx="13" fill="#0D1B2C" stroke="#335268"/>
+  <path d="M42 30H912" stroke="#385972" stroke-width="2"/>
+  <path d="M42 30H912" stroke="#75DFE6" stroke-width="3" stroke-dasharray="46 855">
+    <animate attributeName="stroke-dashoffset" from="0" to="-901" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#0D1B2C" stroke="#75DFE6" stroke-width="2">
+    <circle cx="50" cy="30" r="7"/><circle cx="272" cy="30" r="7"/><circle cx="498" cy="30" r="7"/><circle cx="726" cy="30" r="7"/>
+  </g>
+  <g fill="#DDEBF4" font-family="system-ui, Segoe UI, sans-serif" font-size="21" font-weight="650">
+    <text x="44" y="66">Checkout</text><text x="266" y="66">Kitchen</text><text x="492" y="66">Rider delivery</text><text x="720" y="66">Cash settlement</text>
+  </g>
+</svg>

@@ -13,13 +13,12 @@
 | --- | --- |
 | Name, location, education, work availability | Intro and **About me** in `README.md`; visible name and accessible title in `assets/profile/hero.svg`. |
 | Portrait | The embedded anime illustration and its image placement in `assets/profile/hero.svg`. The illustration is based on the supplied portrait, and the header uses SVG animations for motion. |
-| Focus areas | **What I build** in `README.md` and the labels in `assets/profile/focus.svg`. |
-| Role text and typing timing | Three text elements, opacity timelines, and clip width in `assets/profile/typing.svg`. |
-| Portfolio, journal, X, email, LinkedIn | Contact links in `README.md` and labels in `assets/profile/badge-*.svg`. |
-| Project names, stacks, and repo links | Four cards in **Featured projects** in `README.md`. |
-| Icon groups | `skillicons.dev/icons?i=…` and matching text labels in **Tech stack**. |
-| Username | Profile and counter links in `README.md`; local fallback `PROFILE_USER` in `scripts/update-activity.mjs`. GitHub Actions uses the repository owner. |
-| Activity and language colors | Theme objects in `scripts/update-activity.mjs`, plus the banner and footer SVG colors. |
+| Focus areas | **Technical focus** in `README.md`. |
+| Rotating role text | The three text elements and opacity timelines in `assets/profile/hero.svg`. |
+| Portfolio, journal, X, email, LinkedIn | The link rows near the top and under **Work with me** in `README.md`. |
+| Project names, stacks, and repo links | The case study and project links in **Selected work** in `README.md`. |
+| Username | Profile and project links in `README.md`; local fallback `PROFILE_USER` in `scripts/update-activity.mjs`. GitHub Actions uses the repository owner. |
+| Activity and language colors | Theme objects in `scripts/update-activity.mjs`, plus the header and Food Fight workflow SVG colors. |
 | RSS source | Feed URL and allowed host in `scripts/update-blog.ps1`. Keep the `BLOG:START` and `BLOG:END` markers in the README. |
 | Refresh time | UTC cron in `.github/workflows/refresh-profile.yml`. |
 
@@ -37,6 +36,6 @@ No executable code or workflows from the reference archives were run. The select
 
 ## Image dependencies
 
-The animated header, typing strip, footer, statistics, and contribution graph are served from this repository. The statistics show the public contribution calendar and primary languages across owned, non-archived public repositories. Streaks are measured within the displayed year.
+The animated header, Food Fight workflow, statistics, and contribution graph are served from this repository. The statistics show the public contribution calendar and primary languages across owned, non-archived public repositories. Streaks are measured within the displayed year.
 
-Contact badges are stored in the repository. Skill Icons supplies the tool icons, and Komarev supplies the view counter. These public services can throttle or be temporarily unavailable. The links and text labels remain available. The counter tracks requests to its image and can be affected by caching. Shared stats-card services are outside the rendering path. GitHub can delay scheduled jobs, so the checked-in cards and links remain visible between refreshes.
+GitHub can delay scheduled jobs, so the checked-in cards and links remain visible between refreshes.

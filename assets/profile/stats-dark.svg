@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 253" role="img" aria-labelledby="title">
-<title id="title">GitHub activity over the last year: Contributions 502, Public projects 11, Current streak 1d, Longest streak 18d. Primary languages: Dart, JavaScript, TypeScript, HTML.</title>
+<title id="title">GitHub activity over the last year: Contributions 502, Public repos 11, Current streak 1d, Longest streak 18d. Primary languages: Dart, JavaScript, TypeScript, HTML.</title>
 <g font-family="system-ui, Segoe UI, sans-serif">
 <rect x="1" y="1" width="718" height="251" rx="16" fill="#0D1B2C" stroke="#25405A"/>
 <text x="26" y="34" fill="#58D9EE" font-size="18" font-weight="750">GitHub snapshot</text>
 <text x="694" y="34" text-anchor="end" fill="#A7BBD1" font-size="13">Last 12 months · streaks</text>
 <text x="26" y="89" fill="#F1F7FC" font-size="31" font-weight="750">502</text>
 <text x="26" y="111" fill="#A7BBD1" font-size="13">Contributions</text><text x="193" y="89" fill="#F1F7FC" font-size="31" font-weight="750">11</text>
-<text x="193" y="111" fill="#A7BBD1" font-size="13">Public projects</text><text x="360" y="89" fill="#F1F7FC" font-size="31" font-weight="750">1d</text>
+<text x="193" y="111" fill="#A7BBD1" font-size="13">Public repos</text><text x="360" y="89" fill="#F1F7FC" font-size="31" font-weight="750">1d</text>
 <text x="360" y="111" fill="#A7BBD1" font-size="13">Current streak</text><text x="527" y="89" fill="#F1F7FC" font-size="31" font-weight="750">18d</text>
 <text x="527" y="111" fill="#A7BBD1" font-size="13">Longest streak</text>
 <text x="26" y="140" fill="#A7BBD1" font-size="13" font-weight="700">PRIMARY LANGUAGES · PUBLIC REPOSITORIES</text>
@@ -18,5 +18,5 @@
 <rect x="175" y="208" width="112" height="8" rx="4" fill="#58D9EE"><animate attributeName="width" from="0" to="112" dur="0.85s" fill="freeze"/></rect>
 <text x="475" y="218" fill="#A7BBD1" font-size="13">2 repos</text><text x="26" y="242" fill="#F1F7FC" font-size="14">HTML</text>
 <rect x="175" y="232" width="56" height="8" rx="4" fill="#58D9EE"><animate attributeName="width" from="0" to="56" dur="0.85s" fill="freeze"/></rect>
-<text x="475" y="242" fill="#A7BBD1" font-size="13">1 repos</text></g>
+<text x="475" y="242" fill="#A7BBD1" font-size="13">1 repo</text></g>
 </svg>

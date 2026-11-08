@@ -1,90 +1,33 @@
-<div align="center">
-  <img src="assets/profile/hero.svg" width="100%" alt="Anime illustration of Muhammad Irfan Waseem at a development workstation, with a mobile app, code editor, and security monitor">
-  <img src="assets/profile/typing.svg" width="650" alt="Flutter Developer · MERN Stack Developer · Cybersecurity Enthusiast">
-  <p>
-    I build Flutter apps for delivery and business operations, and develop the APIs and data models behind them.<br>
-    Freelance Flutter developer since January 2025 · COMSATS University Islamabad, Sahiwal Campus · Class of 2027.
-  </p>
-  <p>
-    <a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/"><img src="assets/profile/badge-portfolio.svg" alt="Portfolio"></a>
-    <a href="https://veilguardsecjournal.blogspot.com/"><img src="assets/profile/badge-journal.svg" alt="VeilGuard Security Journal"></a>
-    <a href="https://x.com/Irfan_CyberSec"><img src="assets/profile/badge-social.svg" alt="@Irfan_CyberSec on X"></a>
-    <a href="mailto:muhammadirfan.infosec@gmail.com"><img src="assets/profile/badge-email.svg" alt="Email Muhammad Irfan Waseem"></a>
-    <img src="https://komarev.com/ghpvc/?username=Ir786106&amp;style=flat-square&amp;color=0e7490&amp;label=Profile+views" alt="Profile view count">
-  </p>
-</div>
+<img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem, Flutter and full-stack developer and cybersecurity writer, illustrated at an anime-style development workstation">
 
-## What I build
+I build Flutter apps for delivery and business operations, and the backend services they depend on. Freelance developer since January 2025 · BS Computer Science, COMSATS University Islamabad, Sahiwal Campus · Class of 2027.
 
-<img src="assets/profile/focus.svg" width="100%" alt="Animated overview of app development, software engineering and cybersecurity writing">
+**[Portfolio](https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/)** · [VeilGuard Journal](https://veilguardsecjournal.blogspot.com/) · [LinkedIn](https://www.linkedin.com/in/muhammad-irfan-waseem-48226b297/) · [Email](mailto:muhammadirfan.infosec@gmail.com)
 
-- **App development.** I build Flutter and React Native apps for workflows such as ordering, delivery, and inventory.
-- **Software engineering.** I work with MERN and Firebase on role-based access, backend validation, and applications that need live data.
-- **Cybersecurity.** I publish practical security notes and tool walkthroughs at [VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/).
+## Selected work
 
-Based in Punjab, Pakistan. Open to Flutter freelance work, software development internships, and collaboration.
+### Food Fight
 
-## Tech stack
+<img src="assets/profile/food-fight-flow.svg" width="100%" alt="Food Fight order flow: checkout, kitchen preparation, rider delivery, and cash settlement">
 
-| Area | Tools |
-| --- | --- |
-| **Mobile** | <img src="https://skillicons.dev/icons?i=flutter,dart" height="32" alt="Flutter and Dart"><br>Flutter, Dart, GetX, React Native, Expo |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=react,js,ts" height="32" alt="React, JavaScript and TypeScript"><br>React, JavaScript, TypeScript |
-| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express" height="32" alt="Node.js and Express"><br>Node.js, Express |
-| **Database and cloud** | <img src="https://skillicons.dev/icons?i=firebase,supabase,mongodb" height="32" alt="Firebase, Supabase and MongoDB"><br>Firebase, Cloud Firestore, Supabase, MongoDB |
-| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,postman" height="32" alt="Git, GitHub and Postman"><br>Git, GitHub, Postman |
-| **Security** | <img src="https://skillicons.dev/icons?i=kali,linux" height="32" alt="Kali Linux and Linux"><br>Kali Linux, Wireshark, Burp Suite |
+A multi-branch Flutter delivery platform for customers, kitchen staff, and riders. The backend validates Cash on Delivery quotes, manages rider dispatch, and records cash handover after delivery.
 
-## Featured projects
+**Flutter · Firebase · Cloud Functions**<br>
+[View source](https://github.com/Ir786106/food-fight-app) · **[Download signed Android APK](https://github.com/Ir786106/food-fight-app/releases/latest)**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ir786106/food-fight-app">Food Fight</a></h3>
-      <p>Multi-branch food delivery with customer, kitchen, and rider workflows, from COD checkout to cash settlement.</p>
-      <p><code>Flutter</code> <code>Dart</code> <code>Firebase</code></p>
-      <a href="https://github.com/Ir786106/food-fight-app/releases/latest">Download Android APK</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ir786106/mandi-pro-erp">Mandi Pro ERP</a></h3>
-      <p>Digitizes stock, purchases, sales, and ledgers for grain-market businesses.</p>
-      <p><code>Flutter</code> <code>Firebase</code> <code>GetX</code></p>
-      <a href="https://github.com/Ir786106/mandi-pro-erp">View repository</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ir786106/teamsync-saas">TeamSync</a></h3>
-      <p>Multi-tenant project management for teams that need shared workspaces, task ownership, and progress reporting.</p>
-      <p><code>MERN</code> <code>TypeScript</code></p>
-      <a href="https://github.com/Ir786106/teamsync-saas">View repository</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ir786106/ai-interview-pro">HireReady PK</a></h3>
-      <p>AI-assisted interview preparation and aptitude practice for Pakistani tech candidates.</p>
-      <p><code>React</code> <code>Node.js</code> <code>FastAPI</code> <code>Gemini</code></p>
-      <a href="https://github.com/Ir786106/ai-interview-pro">View repository</a>
-    </td>
-  </tr>
-</table>
+- **[Mandi Pro ERP](https://github.com/Ir786106/mandi-pro-erp)** · Inventory, purchases, sales, and ledgers for grain-market businesses. `Flutter` · `Firebase` · `GetX`
+- **[TeamSync](https://github.com/Ir786106/teamsync-saas)** · Multi-tenant workspaces, task ownership, and progress reporting. `MERN` · `TypeScript`
+- **[HireReady PK](https://github.com/Ir786106/ai-interview-pro)** · AI-assisted interview and aptitude practice for Pakistani tech candidates. `React` · `FastAPI` · `Gemini`
 
-## GitHub activity
+## Technical focus
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stats-dark.svg">
-  <img src="assets/profile/stats-light.svg" width="720" alt="GitHub contributions, public projects, current and longest streaks, and top repository languages">
-</picture>
-
-<a href="https://github.com/Ir786106#contributions">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-dark.svg">
-    <img src="assets/profile/activity-light.svg" width="720" alt="Animated contribution graph for the last year. Open GitHub to view live activity.">
-  </picture>
-</a>
+**App development** · Flutter, Dart, GetX, React Native, Expo<br>
+**Software engineering** · React, TypeScript, Node.js, Express, Firebase, Supabase, MongoDB<br>
+**Cybersecurity practice** · Kali Linux, Wireshark, Burp Suite
 
 ## Cybersecurity writing
 
-**[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)** covers cybersecurity topics, practical tools, and what I learn from hands-on work.
+I publish practical security notes at **[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)**, with recent posts below.
 
 <!-- BLOG:START -->
 <ul>
@@ -94,16 +37,26 @@ Based in Punjab, Pakistan. Open to Flutter freelance work, software development 
 </ul>
 <!-- BLOG:END -->
 
-## Currently working on
+## GitHub activity
 
-- Improving role-based delivery workflows and release updates in **Food Fight**.
-- Building multi-tenant project workflows with **TeamSync** and exploring AI-assisted practice with **HireReady PK**.
-- Deepening my experience with **React Native and Expo** for cross-platform mobile delivery.
+<a href="https://github.com/Ir786106#contributions">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-dark.svg">
+    <img src="assets/profile/activity-light.svg" width="100%" alt="Animated GitHub contribution calendar for the last year. Select to view live activity.">
+  </picture>
+</a>
 
-## Let’s work together
+<details>
+  <summary>Contribution streaks and primary languages</summary>
 
-Have a Flutter app, Firebase workflow, or full-stack project to discuss? Email me with a short description of what you’re building and where you need help.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stats-dark.svg">
+    <img src="assets/profile/stats-light.svg" width="100%" alt="Public repositories, contributions, current and longest streaks, and primary languages">
+  </picture>
+</details>
 
-[Email me](mailto:muhammadirfan.infosec@gmail.com) · [Portfolio](https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/muhammad-irfan-waseem-48226b297/) · [X](https://x.com/Irfan_CyberSec)
+## Work with me
 
-<img src="assets/profile/footer.svg" width="100%" alt="Animated navy and cyan portfolio footer">
+I’m open to Flutter freelance projects, software development internships, and collaboration. [Email me](mailto:muhammadirfan.infosec@gmail.com) with a short description of your project.
+
+[Portfolio](https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/muhammad-irfan-waseem-48226b297/) · [X](https://x.com/Irfan_CyberSec)
