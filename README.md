@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://ir786106.github.io/Ir786106/">
-    <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — Designing what's next. Studio edition creative developer portfolio." />
+    <img src="assets/profile/irfan-anime-banner.png" width="100%" alt="Muhammad Irfan Waseem — personal anime portrait and creative developer portfolio banner." />
   </a>
   
   <h2>Code meets craft.</h2>

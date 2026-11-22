@@ -52,3 +52,24 @@
   .hero-stage,.hero-stage.reveal.visible{position:relative;top:0;right:auto;left:50%;width:700px;height:590px;transform:translateX(-50%) scale(.88);transform-origin:center top;margin-top:15px;margin-bottom:-48px;opacity:1}
   .hero-footnotes{margin-top:38px}
 }
+
+/* PERSONALIZED ANIME ART UPDATE — the supplied portrait is a real local asset. */
+.anime-stage{isolation:isolate}
+.anime-portrait-frame{position:absolute;z-index:4;inset:57px 55px 35px 72px;overflow:hidden;border-radius:36px 130px 30px 36px;background:#19152d;border:1px solid rgba(196,179,255,.66);box-shadow:0 30px 100px rgba(5,4,22,.75),0 0 0 9px rgba(165,144,250,.06);transform:rotate(-2.5deg);animation:anime-bob 7s ease-in-out infinite;will-change:transform}
+.anime-portrait-frame:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,10,30,.94),transparent 31%,transparent 70%,rgba(14,9,42,.25));pointer-events:none}
+.anime-portrait{width:100%;height:100%;display:block;object-fit:cover;object-position:61% center;transform:scale(1.04);filter:saturate(1.04) contrast(1.01)}
+.anime-image-caption{position:absolute;bottom:25px;left:31px;right:32px;z-index:2;display:flex;flex-direction:column;gap:8px;letter-spacing:.11em;font-family:var(--mono);font-size:10px;color:#e2d9ff;text-shadow:0 2px 8px #020314}
+.anime-image-caption strong{display:flex;align-items:center;justify-content:space-between;font:700 28px var(--display);letter-spacing:-.04em;color:#fff}
+.anime-image-caption strong span{color:#b7a9ff}
+.anime-float-label{position:absolute;z-index:6;display:block;padding:13px 15px;background:rgba(27,28,54,.91);border:1px solid rgba(199,186,255,.44);backdrop-filter:blur(10px);border-radius:13px;font:500 10px var(--mono);letter-spacing:.04em;color:#efe9ff;box-shadow:0 12px 30px rgba(2,2,10,.38)}
+.anime-label-a{top:98px;left:20px;transform:rotate(-7deg);animation:anime-tag-float 5s ease-in-out infinite}
+.anime-label-b{bottom:101px;right:8px;transform:rotate(5deg);animation:anime-tag-float 5.5s ease-in-out infinite reverse}
+@keyframes anime-bob{0%,100%{transform:rotate(-2.5deg) translateY(0)}50%{transform:rotate(-1.2deg) translateY(-11px)}}
+@keyframes anime-tag-float{0%,100%{translate:0 0}50%{translate:0 -12px}}
+@media(max-width:1080px){.anime-portrait-frame{inset:57px 65px 38px 70px}}
+@media(max-width:780px){.anime-portrait-frame{inset:35px 73px 50px 85px}.anime-label-a{left:37px;top:65px}.anime-label-b{right:37px;bottom:108px}}
+@media(max-width:480px){.anime-portrait-frame{inset:31px 76px 45px 86px}.anime-image-caption{bottom:22px}.anime-label-b{right:40px}}
+@media(prefers-reduced-motion:reduce){.anime-portrait-frame,.anime-float-label{animation:none!important;transform:none!important}}
+/* Keep the mobile hero artwork safely below the service labels. */
+@media(max-width:780px){.anime-stage{margin-top:25px}}
+@media(max-width:480px){.anime-stage{margin-top:26px}}
