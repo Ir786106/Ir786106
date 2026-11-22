@@ -1,76 +1,84 @@
-# GitHub profile + animated portfolio — setup guide
+# Ir786106 Creative Portfolio — Setup & Deployment
 
-This repository contains **two independent deliverables**:
+This package contains **two related deliverables** in one repository:
 
-1. **GitHub profile README**: `README.md` plus custom animated SVGs in `assets/profile/`.
-2. **Animated standalone portfolio**: `docs/index.html`, `docs/styles.css`, `docs/script.js`, and `docs/assets/`.
+1. **GitHub profile README** — GitHub renders `README.md` when it lives in the `Ir786106/Ir786106` repository. Its illustrated header lives at `assets/profile/hero.svg`.
+2. **Full interactive portfolio website** — GitHub Pages serves `docs/index.html` with `docs/styles.css`, `docs/script.js` and `docs/assets/*.svg`.
 
-The repository was supplied as a GitHub profile repository (`Ir786106/Ir786106`), **not** a full website. The new portfolio in `docs/` is a standalone addition and can be published with GitHub Pages. The current portfolio at `Ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/` is a separate project; this package does not overwrite it or deploy itself.
+## Quick local preview (Windows)
 
-## 1. Review locally
+Extract the ZIP and open `Ir786106-main/docs/index.html` in Chrome. The site is static HTML/CSS/JavaScript; **no npm install** or backend is necessary. Google Fonts are optional; the site has system-font fallbacks.
 
-- Extract the ZIP.
-- Open `docs/index.html` in Chrome, Firefox, or Edge to preview the portfolio. No build step or package installation is necessary.
-- The animation, mobile navigation, project-category filters, and contact mail link work with local files. A network connection is used only to fetch optional Google fonts and open external links.
-- GitHub's README preview cannot reproduce every browser animation exactly, but the animated SVG files have meaningful static fallback content.
+## Safe update of your GitHub repository (PowerShell)
 
-## 2. Update the GitHub profile
-
-- Copy the **contents** of this project into the public repository at `https://github.com/Ir786106/Ir786106`. Keep paths intact. The repository must have the same name as the GitHub account for the README to appear on the profile.
-- Commit the changes to the default branch (`main`). The profile README should display automatically at `https://github.com/Ir786106`.
-- Under **Actions**, run **Refresh GitHub profile** manually to update the contribution cards and blog entries. The existing workflow also runs daily.
-- If the workflow cannot push, open **Settings → Actions → General → Workflow permissions** and allow read/write access to the `GITHUB_TOKEN` where repository rules and your organization policy permit it. Alternatively approve updates through your required branch-protection process.
-
-## 3. Publish the new animated website
-
-In the **Ir786106/Ir786106** repository:
-
-1. Open **Settings → Pages**.
-2. Choose **Deploy from a branch** (if that option is available).
-3. Select the `main` branch and `/docs` folder, then **Save**.
-4. When GitHub finishes publishing, expect the root address **`https://ir786106.github.io/`**, assuming normal username Pages behavior. Check the URL shown in the Pages settings rather than assuming the site is already live.
-5. Open the page on desktop and mobile and test the navigation, filters, all external links, and email link.
-
-This is separate from the existing portfolio repository at `Muhammad_Irfan_Waseem_Portfolio`. You can choose to keep the old website, redirect it, or migrate content only after reviewing both. Do not replace its files blindly.
-
-## 4. Customize safely
-
-| Purpose | File |
-| --- | --- |
-| Website name, biography, links, project descriptions | `docs/index.html` |
-| Website colors, spacing, typography, animations | `docs/styles.css` (start with the `:root` tokens) |
-| Typing headline, project filtering, mobile navigation | `docs/script.js` |
-| Website project cover graphics | `docs/assets/*.svg` |
-| GitHub profile intro and project cards | `README.md` |
-| GitHub banner artwork | `assets/profile/hero.svg` |
-| Profile statistics generator | `scripts/update-activity.mjs` |
-| Blog RSS reader | `scripts/update-blog.ps1` |
-| GitHub profile refresh schedule | `.github/workflows/refresh-profile.yml` |
-
-The original anime-style banner is retained as `assets/profile/hero-anime-original.svg`; it is not used by default.
-
-## 5. What is and is not included
-
-**Included:** responsive dark website, original animated SVG artwork, mobile menu, project filters, typing headline, scroll reveals, marquee, scroll progress, reduced-motion support, semantic sections, email CTA, custom project illustrations, GitHub README, local stats assets, and existing refresh automation.
-
-**Not included:** a backend, working contact-form submission, a verified live demo for each project, newly released Android APKs, deployment or GitHub commits. Project cover graphics are **conceptual illustrations**, not actual product screenshots. If you obtain real screenshots, replace the SVG illustrations with real images and update their alt text. The Food Fight **releases** link is for checking available downloads; no APK is claimed to be available.
-
-## 6. Validation
-
-Run from the repository root:
+The following assumes you already extracted the ZIP to `D:\Irfan_Project\Ir786106-main`. Adjust the first variable if your extracted folder has another location. These commands preserve the existing Git history and never force push.
 
 ```powershell
-node --check docs/script.js
-node scripts/validate-site.mjs
+$source = "D:\Irfan_Project\Ir786106-main"
+$destination = "D:\Irfan_Project\Ir786106-live"
+
+if (!(Test-Path (Join-Path $source 'docs\index.html'))) {
+    throw "Source website files not found. Verify your extracted folder."
+}
+
+# Clone GitHub profile repository (fresh folder)
+if (Test-Path $destination) {
+    throw "Destination exists; choose another folder rather than overwriting it."
+}
+git clone https://github.com/Ir786106/Ir786106.git $destination
+if ($LASTEXITCODE -ne 0) { throw "Git clone failed." }
+
+# Copy the updated contents but preserve .git history
+robocopy $source $destination /E /R:2 /W:1 /XD .git
+if ($LASTEXITCODE -gt 7) { throw "File copy failed." }
+
+Set-Location $destination
+git status
+git add -A
+git diff --cached --stat
+# Review the file summary before continuing.
+git commit -m "Redesign creative animated portfolio"
+if ($LASTEXITCODE -ne 0) { throw "Commit failed or no changes exist." }
+git push origin main
+if ($LASTEXITCODE -ne 0) { throw "Push failed." }
 ```
 
-The static validator checks local website images, page anchors, duplicate HTML IDs, accessibility basics, GitHub project links and whether the expected SVG assets exist. It does not prove that remote links still work or simulate a deployed GitHub Pages build. Visual interactions were additionally exercised using Chromium at desktop and mobile sizes.
+**Note:** Files with identical paths, especially `README.md`, `docs/index.html`, `docs/styles.css`, and project illustrations, are deliberately updated. Unrelated files in the repository are left intact. If Git asks you to authenticate, sign in through your own browser; never share your personal access token in chat.
 
-## Optional release checklist
+## Publish the website with GitHub Pages
 
-- [ ] Verify biography and contact addresses reflect what you want public.
-- [ ] Confirm ownership, descriptions, and publication permissions for all featured projects.
-- [ ] Replace concept graphics with real screenshots when available.
-- [ ] Check if any Food Fight APK release exists before linking a direct download.
-- [ ] Update GitHub bio, portfolio link, location, and pinned repositories.
-- [ ] Publish through GitHub Pages and test the real URL.
+1. Open <https://github.com/Ir786106/Ir786106/settings/pages>.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch **main** and folder **/docs**.
+4. Click **Save**.
+5. Once GitHub Pages builds, the expected site address is <https://ir786106.github.io/Ir786106/>.
+
+GitHub profile URL: <https://github.com/Ir786106>.
+
+## What's included
+
+- Creative editorial layout, animated hero, grain texture, scroll reveals, subtle pointer movement and marquee.
+- Four custom project artwork illustrations, all locally included as SVG files.
+- Mobile navigation, category filtering, copy-email interaction, scroll progress, skip-to-content, and reduced-motion support.
+- GitHub profile README with matching artwork, project highlights, public activity graphics, and the existing blog refresh markers.
+- GitHub Actions profile refresh workflow and local site-validation script.
+
+## Validation
+
+From the extracted project directory, run:
+
+```powershell
+node .\scripts\validate-site.mjs
+```
+
+The project works without installing external npm packages. Graphics are **conceptual designs** — not screenshots of deployed applications. Repository links are clickable, but this archive does **not** deploy your app or generate Android APK builds.
+
+## Customize it
+
+- Site text and project names: `docs/index.html`
+- Site typography, colors, responsive layout, animations: `docs/styles.css`
+- Mobile menu, filters, copy email, movement: `docs/script.js`
+- Graphic assets: `docs/assets/*.svg` and `assets/profile/*.svg`
+- GitHub profile content: `README.md`
+
+Do not change the repository's `.github/workflows/refresh-profile.yml` or blog marker comments unless you intend to update those automations too.

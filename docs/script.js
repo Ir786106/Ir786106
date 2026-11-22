@@ -1,81 +1,92 @@
-/* Lightweight, progressive-enhancement interactions — no external JS libraries. */
 (() => {
   'use strict';
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const menuButton = document.querySelector('.menu-toggle');
-  const menu = document.querySelector('.nav-links');
-  const updateMenu = open => {
-    menuButton?.classList.toggle('is-open', open);
-    menu?.classList.toggle('is-open', open);
-    menuButton?.setAttribute('aria-expanded', String(open));
-    menuButton?.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+  const links = document.getElementById('site-links');
+  const closeMenu = () => {
+    menuButton?.setAttribute('aria-expanded', 'false');
+    menuButton?.setAttribute('aria-label', 'Open navigation menu');
+    links?.classList.remove('is-open');
+    document.body.classList.remove('menu-open');
   };
-  menuButton?.addEventListener('click', () => updateMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
-  menu?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => updateMenu(false)));
-  document.addEventListener('keydown', event => { if (event.key === 'Escape') updateMenu(false); });
-  document.addEventListener('click', event => {
-    if (menu?.classList.contains('is-open') && !event.target.closest('.nav')) updateMenu(false);
+  menuButton?.addEventListener('click', () => {
+    const isOpen = menuButton.getAttribute('aria-expanded') !== 'true';
+    menuButton.setAttribute('aria-expanded', String(isOpen));
+    menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    links?.classList.toggle('is-open', isOpen);
+    document.body.classList.toggle('menu-open', isOpen);
   });
+  links?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+  document.addEventListener('click', e => { if (!e.target.closest('.nav') && links?.classList.contains('is-open')) closeMenu(); });
+  window.matchMedia('(min-width: 861px)').addEventListener('change', ({matches}) => { if (matches) closeMenu(); });
 
-  // Filter projects without re-ordering or modifying any external content.
-  const cards = Array.from(document.querySelectorAll('.project-card'));
-  document.querySelectorAll('[data-filter]').forEach(button => {
-    button.addEventListener('click', () => {
-      const category = button.dataset.filter;
-      document.querySelectorAll('[data-filter]').forEach(filter => {
-        const active = filter === button;
-        filter.classList.toggle('active', active);
-        filter.setAttribute('aria-pressed', String(active));
-      });
-      cards.forEach(card => { card.hidden = category !== 'all' && card.dataset.category !== category; });
+  const projectCards = [...document.querySelectorAll('.project')];
+  const filters = [...document.querySelectorAll('[data-filter]')];
+  filters.forEach(button => button.addEventListener('click', () => {
+    const category = button.dataset.filter;
+    filters.forEach(other => {
+      const active = other === button;
+      other.classList.toggle('active', active);
+      other.setAttribute('aria-pressed', String(active));
     });
-  });
+    projectCards.forEach(card => { card.hidden = category !== 'all' && card.dataset.category !== category; });
+  }));
 
-  const reveal = Array.from(document.querySelectorAll('.reveal'));
-  if ('IntersectionObserver' in window && !reducedMotion.matches) {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: .08, rootMargin: '0px 0px -25px 0px' });
-    reveal.forEach(element => observer.observe(element));
+  const revealed = [...document.querySelectorAll('.reveal')];
+  if ('IntersectionObserver' in window && !motion.matches) {
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    }), { threshold: .06, rootMargin: '0px 0px -30px 0px' });
+    revealed.forEach(el => observer.observe(el));
   } else {
-    reveal.forEach(element => element.classList.add('is-visible'));
+    revealed.forEach(el => el.classList.add('visible'));
   }
 
-  // Animate the title in place; no constant layout shifts or flashing content.
-  const typeTarget = document.getElementById('typed-role');
-  const roles = ['Flutter developer', 'Full-stack builder', 'Security learner'];
-  if (typeTarget && !reducedMotion.matches) {
-    let roleIndex = 0, charIndex = roles[0].length, erasing = false;
-    const tick = () => {
-      const role = roles[roleIndex];
-      typeTarget.textContent = role.slice(0, charIndex);
-      let delay = erasing ? 43 : 79;
-      if (!erasing && charIndex === role.length) { erasing = true; delay = 2150; }
-      else if (erasing && charIndex === 0) { erasing = false; roleIndex = (roleIndex + 1) % roles.length; delay = 420; }
-      else { charIndex += erasing ? -1 : 1; }
-      window.setTimeout(tick, delay);
-    };
-    window.setTimeout(tick, 1850);
-  }
-
-  const year = document.getElementById('year');
-  if (year) year.textContent = String(new Date().getFullYear());
-  const progress = document.getElementById('page-progress');
-  let ticking = false;
-  const onScroll = () => {
-    if (ticking) return;
-    ticking = true;
+  const progress = document.getElementById('scroll-progress');
+  let scrolling = false;
+  const scrollUpdate = () => {
+    if (scrolling) return;
+    scrolling = true;
     window.requestAnimationFrame(() => {
       const max = document.documentElement.scrollHeight - window.innerHeight;
-      if (progress) progress.style.width = (max > 0 ? Math.min(100, Math.max(0, window.scrollY / max * 100)) : 0) + '%';
-      ticking = false;
+      if (progress) progress.style.width = (max > 0 ? Math.max(0, Math.min(100, 100 * window.scrollY / max)) : 0) + '%';
+      scrolling = false;
     });
   };
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  addEventListener('scroll', scrollUpdate, { passive: true });
+  scrollUpdate();
+
+  const visual = document.querySelector('.hero-visual');
+  if (visual && !motion.matches && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    visual.addEventListener('pointermove', e => {
+      const rect = visual.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - .5;
+      const y = (e.clientY - rect.top) / rect.height - .5;
+      visual.style.setProperty('--pointer-x', (x * 12).toFixed(2) + 'px');
+      visual.style.setProperty('--pointer-y', (y * 12).toFixed(2) + 'px');
+    });
+    visual.addEventListener('pointerleave', () => {
+      visual.style.setProperty('--pointer-x', '0px');
+      visual.style.setProperty('--pointer-y', '0px');
+    });
+  }
+
+  const copy = document.getElementById('copy-email');
+  const copyLabel = document.getElementById('copy-label');
+  copy?.addEventListener('click', async () => {
+    const email = copy.dataset.email;
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(email);
+      copyLabel.textContent = 'Email copied ✓';
+      copy.classList.add('copied');
+    } catch {
+      copyLabel.textContent = email;
+    }
+  });
+  document.getElementById('year').textContent = String(new Date().getFullYear());
 })();

@@ -1,88 +1,82 @@
 <div align="center">
-  <a href="https://github.com/Ir786106">
-    <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — Flutter, full-stack and security-focused developer. Animated introduction banner." />
+  <a href="https://ir786106.github.io/Ir786106/">
+    <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — I make complex feel simple. Developer portfolio banner." />
   </a>
-
-  <h3>Building digital products that solve real operational problems.</h3>
-  <p>Flutter apps · Full-stack engineering · Practical security</p>
-
+  
+  <h2>Software development, with intention.</h2>
+  <p>Flutter apps · Full-stack platforms · Security-aware engineering</p>
   <p>
-    <a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/">Portfolio</a> &nbsp;·&nbsp;
-    <a href="https://github.com/Ir786106?tab=repositories">Repositories</a> &nbsp;·&nbsp;
-    <a href="https://veilguardsecjournal.blogspot.com/">Security journal</a> &nbsp;·&nbsp;
-    <a href="mailto:muhammadirfan.infosec@gmail.com">Email</a> &nbsp;·&nbsp;
+    <a href="https://ir786106.github.io/Ir786106/"><b>↗ Explore portfolio</b></a>
+    &nbsp; · &nbsp;
+    <a href="https://github.com/Ir786106?tab=repositories">All repositories</a>
+    &nbsp; · &nbsp;
+    <a href="https://veilguardsecjournal.blogspot.com/">Security writing</a>
+    &nbsp; · &nbsp;
+    <a href="mailto:muhammadirfan.infosec@gmail.com">Email</a>
+    &nbsp; · &nbsp;
     <a href="https://www.linkedin.com/in/muhammad-irfan-waseem-48226b297/">LinkedIn</a>
   </p>
-
-  <a href="#featured-projects">Selected work</a> &nbsp; • &nbsp;
-  <a href="#what-i-work-with">Tech stack</a> &nbsp; • &nbsp;
-  <a href="#github-activity">Activity</a> &nbsp; • &nbsp;
-  <a href="#lets-connect">Contact</a>
 </div>
 
-<img src="assets/profile/divider.svg" width="100%" alt="" />
+<img src="assets/profile/divider.svg" alt="" width="100%" />
 
-## About me
+### `01` / HELLO, I'M IRFAN
 
-I'm a computer science student at **COMSATS University Islamabad, Sahiwal Campus** (class of 2027) and a developer focused on products people actually use: business workflows, delivery operations, secure backends, and clean mobile interfaces.
+I'm **Muhammad Irfan Waseem**, a BS Computer Science student at COMSATS University Islamabad — Sahiwal Campus (class of 2027), based in Pakistan.
 
-- **Build:** Flutter / Dart, React, TypeScript, and backend APIs.
-- **Think:** role-based access, safe data handling, operational clarity, and reliable user journeys.
-- **Explore:** application security and practical cybersecurity research.
-- **Collaborate:** open to development work, internships, and interesting product teams.
+I enjoy building **usable mobile products, operational software, and clean full-stack experiences**. I'm interested in the small details that make complex systems feel straightforward, and I'm continually learning more about practical application security.
 
-## Featured projects
+### `02` / SELECTED PROJECTS
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ir786106/food-fight-app"><img src="assets/profile/food-fight-cover.svg" width="100%" alt="Concept illustration for Food Fight multi-branch delivery app" /></a>
-      <h3>Food Fight</h3>
-      <p>Multi-role food delivery app covering customer orders, restaurant operations, rider delivery, and Cash on Delivery workflows.</p>
-      <p><code>Flutter</code> <code>Firebase</code> <code>Node.js</code></p>
-      <p><a href="https://github.com/Ir786106/food-fight-app">View repository</a> · <a href="https://github.com/Ir786106/food-fight-app/releases">Check releases</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ir786106/mandi-pro-erp"><img src="assets/profile/mandi-cover.svg" width="100%" alt="Concept illustration for grain-market inventory and finance workflows" /></a>
-      <h3>Mandi Pro ERP</h3>
-      <p>Business software for stock, purchasing, sales, and ledgers in grain-market workflows.</p>
-      <p><code>Flutter</code> <code>Firebase</code> <code>GetX</code></p>
-      <p><a href="https://github.com/Ir786106/mandi-pro-erp">View repository</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ir786106/teamsync-saas"><img src="assets/profile/teamsync-cover.svg" width="100%" alt="Concept illustration for TeamSync collaborative workspace" /></a>
-      <h3>TeamSync</h3>
-      <p>Workspace and task collaboration with team roles, ownership, and progress tracking.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Node.js</code></p>
-      <p><a href="https://github.com/Ir786106/teamsync-saas">View repository</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Ir786106/ai-interview-pro"><img src="assets/profile/hireready-cover.svg" width="100%" alt="Concept illustration for AI-assisted interview practice" /></a>
-      <h3>HireReady PK</h3>
-      <p>Interview and aptitude practice built around AI-assisted feedback and local career preparation.</p>
-      <p><code>React</code> <code>FastAPI</code> <code>Gemini</code></p>
-      <p><a href="https://github.com/Ir786106/ai-interview-pro">View repository</a></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Ir786106/food-fight-app"><img src="assets/profile/food-fight-cover.svg" alt="Food Fight illustrative app concept" width="100%" /></a>
+<h3>01. Food Fight</h3>
+<p>Multi-role Flutter food delivery product covering ordering, restaurant operations, rider workflows, and Cash on Delivery.</p>
+<p><code>Flutter</code> <code>Firebase</code> <code>Node.js</code></p>
+<a href="https://github.com/Ir786106/food-fight-app"><b>View repository ↗</b></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Ir786106/mandi-pro-erp"><img src="assets/profile/mandi-cover.svg" alt="Mandi Pro ERP illustrative dashboard concept" width="100%" /></a>
+<h3>02. Mandi Pro ERP</h3>
+<p>Grain-market workflows for inventory, purchasing, sales, and ledger management.</p>
+<p><code>Flutter</code> <code>Firebase</code> <code>GetX</code></p>
+<a href="https://github.com/Ir786106/mandi-pro-erp"><b>View repository ↗</b></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Ir786106/teamsync-saas"><img src="assets/profile/teamsync-cover.svg" alt="TeamSync illustrative kanban board concept" width="100%" /></a>
+<h3>03. TeamSync</h3>
+<p>Collaboration workspace exploring task ownership, roles, and progress visibility.</p>
+<p><code>React</code> <code>TypeScript</code> <code>Node.js</code></p>
+<a href="https://github.com/Ir786106/teamsync-saas"><b>View repository ↗</b></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Ir786106/ai-interview-pro"><img src="assets/profile/hireready-cover.svg" alt="HireReady PK illustrative AI practice concept" width="100%" /></a>
+<h3>04. HireReady PK</h3>
+<p>AI-assisted mock-interview and aptitude-practice concepts for career preparation.</p>
+<p><code>React</code> <code>FastAPI</code> <code>Gemini</code></p>
+<a href="https://github.com/Ir786106/ai-interview-pro"><b>View repository ↗</b></a>
+</td>
+</tr>
 </table>
 
-<sub>Project graphics are original conceptual illustrations, not screenshots of running applications. Links point to the source repositories; a downloadable APK is not claimed unless a release is published.</sub>
+<sub>Artwork is illustrative, not a screenshot of a production application. Check each repository for actual implementation and release status.</sub>
 
-## What I work with
+### `03` / MY TOOLKIT
 
-| Area | Tools and technologies |
-| :--- | :--- |
-| **Mobile development** | Flutter, Dart, Provider, GetX, React Native |
-| **Web applications** | React, TypeScript, HTML, CSS, JavaScript |
-| **Backend & cloud** | Node.js, Express, FastAPI, Firebase, Supabase |
-| **Data & tooling** | Firestore, MongoDB, Git, GitHub Actions |
-| **Security practice** | Kali Linux, Wireshark, Burp Suite |
+| Focus | Technologies |
+|:--|:--|
+| **Mobile** | Flutter, Dart, Provider, GetX |
+| **Frontend** | React, TypeScript, JavaScript, HTML, CSS |
+| **Backend / Data** | Node.js, Firebase, Supabase, FastAPI |
+| **Security learning** | Wireshark, Burp Suite, Kali Linux |
 
-## Cybersecurity writing
+### `04` / WRITING & LEARNING
 
-I write about networking, security fundamentals, and the path from software engineering to practical digital defense at **[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)**.
+I share notes about networking, security fundamentals, and the crossover between software engineering and digital defense on the **[VeilGuard Security Journal](https://veilguardsecjournal.blogspot.com/)**.
 
 <!-- BLOG:START -->
 <ul>
@@ -92,32 +86,30 @@ I write about networking, security fundamentals, and the path from software engi
 </ul>
 <!-- BLOG:END -->
 
-## GitHub activity
+### `05` / GITHUB ACTIVITY
 
 <a href="https://github.com/Ir786106#contributions">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity-dark.svg" />
-    <img src="assets/profile/activity-light.svg" width="100%" alt="GitHub contributions from the most recent public snapshot" />
+    <img src="assets/profile/activity-light.svg" width="100%" alt="Contribution activity from the most recent public GitHub data snapshot" />
   </picture>
 </a>
 
 <details>
-  <summary><b>Expand: repository statistics, streaks, and languages</b></summary>
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stats-dark.svg" />
-    <img src="assets/profile/stats-light.svg" width="100%" alt="Public GitHub statistics, updated by the included workflow" />
-  </picture>
-  <p><sub>Automatically generated from GitHub public data; statistics are a point-in-time snapshot, not a claim about private work.</sub></p>
+<summary><b>Explore public repository statistics</b></summary>
+<br />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/stats-dark.svg" />
+  <img src="assets/profile/stats-light.svg" width="100%" alt="Public GitHub repository statistics snapshot" />
+</picture>
+<p><small>Snapshots are generated from public data by the retained GitHub Actions workflow.</small></p>
 </details>
 
-<img src="assets/profile/divider.svg" width="100%" alt="" />
-
-## Let's connect
-
-I'm interested in Flutter and full-stack projects, internships, and collaborations where I can contribute to a real product. If that sounds relevant, send a project summary by **[email](mailto:muhammadirfan.infosec@gmail.com?subject=Let's%20build%20something)** or connect on **[LinkedIn](https://www.linkedin.com/in/muhammad-irfan-waseem-48226b297/)**.
+<img src="assets/profile/divider.svg" alt="" width="100%" />
 
 <div align="center">
-  <p><a href="https://ir786106.github.io/Muhammad_Irfan_Waseem_Portfolio/">Portfolio website</a> · <a href="https://veilguardsecjournal.blogspot.com/">Security articles</a> · <a href="https://github.com/Ir786106">GitHub</a></p>
-  <sub>Designed with readable content, lightweight animated SVGs and no external image-hosting dependency.</sub>
+  <h2>Have something in mind?</h2>
+  <p>For mobile apps, full-stack development, internships or collaboration, I'd be glad to hear about the problem you're trying to solve.</p>
+  <p><b><a href="mailto:muhammadirfan.infosec@gmail.com?subject=Project%20inquiry">Start a conversation ↗</a></b></p>
+  <p><a href="https://ir786106.github.io/Ir786106/">Portfolio website</a> · <a href="https://github.com/Ir786106">GitHub</a> · <a href="https://veilguardsecjournal.blogspot.com/">Journal</a></p>
 </div>

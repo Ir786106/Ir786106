@@ -1,54 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 365" width="1200" height="365" role="img" aria-labelledby="title desc">
-<title id="title">Muhammad Irfan Waseem — Flutter and full-stack developer</title>
-<desc id="desc">Dark, minimal developer banner with animated code orbit, technical grid and an introduction.</desc>
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset=".55" stop-color="#101A2C"/><stop offset="1" stop-color="#14283B"/></linearGradient>
-<linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77F3DD"/><stop offset="1" stop-color="#8EB7FF"/></linearGradient>
-<radialGradient id="glow"><stop stop-color="#75E8DB" stop-opacity=".22"/><stop offset="1" stop-color="#75E8DB" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8DB5C9" stroke-opacity=".095"/></pattern>
-<filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
-</defs>
-<style>
-.bob{animation:bob 6s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
-.pulse{animation:pulse 4s ease-in-out infinite}
-.drift{animation:drift 9s linear infinite}
-.enter{animation:enter .95s ease both}
-.blink{animation:blink 1.2s steps(2,end) infinite}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
-@keyframes drift{0%{transform:translateX(-15px)}100%{transform:translateX(15px)}}
-@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-</style>
-<rect width="1200" height="365" rx="22" fill="url(#bg)"/>
-<rect width="1200" height="365" rx="22" fill="url(#grid)"/>
-<circle cx="971" cy="175" r="240" fill="url(#glow)"/>
-<path d="M0 304C250 208 405 401 650 281S1020 272 1200 126" stroke="#9CDCCF" stroke-opacity=".16" fill="none" stroke-width="1.5"/>
-<path d="M0 332C250 236 405 429 650 309S1020 300 1200 154" stroke="#9CDCCF" stroke-opacity=".08" fill="none" stroke-width="1.5"/>
-<rect x="35" y="33" width="195" height="27" rx="13.5" fill="#152E3B" stroke="#3A827F" stroke-opacity=".7"/>
-<circle cx="51" cy="46.5" r="4" fill="#76ECCA" class="pulse"/>
-<text x="63" y="51" fill="#B4EDE0" font-size="12" letter-spacing="1.2" font-family="Arial, sans-serif" font-weight="700">OPEN TO BUILDING</text>
-<g class="enter" font-family="Arial, Helvetica, sans-serif">
-<text x="39" y="120" fill="#C6D8E4" font-size="20" letter-spacing="2.4">HELLO, I'M</text>
-<text x="35" y="182" fill="#F5FAFF" font-size="59" font-weight="800" letter-spacing="-1.7">MUHAMMAD IRFAN</text>
-<text x="35" y="244" fill="url(#neon)" font-size="65" font-weight="800" letter-spacing="-2.4">WASEEM</text>
-<text x="40" y="289" fill="#BDD4E5" font-size="19">Flutter Developer  /  Full-Stack Builder  /  Security Learner</text>
-<text x="40" y="330" fill="#829BB4" font-size="13" letter-spacing="1.7">COMSATS UNIVERSITY  ·  PAKISTAN  ·  CLASS OF 2027</text>
-</g>
-<g transform="translate(992 177)">
-<circle r="119" fill="none" stroke="#64D6C8" stroke-opacity=".16" stroke-width="1.5" stroke-dasharray="4 10"/>
-<circle r="93" fill="#14243A" stroke="#6DE4D4" stroke-opacity=".38" stroke-width="2"/>
-<circle r="73" fill="none" stroke="#8AB9F7" stroke-opacity=".24" stroke-width="1.5"/>
-<circle r="52" fill="#0D1C2B" stroke="#9AECDC" stroke-opacity=".5"/>
-<g class="bob"><text x="0" y="17" fill="url(#neon)" font-family="monospace" text-anchor="middle" font-size="56" font-weight="700">&lt;/&gt;</text></g>
-<g class="drift"><circle cx="0" cy="-93" r="7" fill="#74EDCC"/><circle cx="93" cy="0" r="5" fill="#8CB5FF"/><circle cx="-93" cy="0" r="4" fill="#74EDCC"/></g>
-<path d="M0 -119 A119 119 0 0 1 119 0" fill="none" stroke="#79EBDD" stroke-opacity=".85" stroke-width="4" stroke-linecap="round" stroke-dasharray="45 760">
-<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
-</path></g>
-<g font-family="monospace" font-size="13" fill="#B6D7E4" opacity=".83">
-<rect x="783" y="71" width="114" height="37" rx="9" fill="#1A3042" stroke="#40697C"/><text x="797" y="95">{ Flutter }</text>
-<rect x="1082" y="253" width="86" height="37" rx="9" fill="#1A3042" stroke="#40697C"/><text x="1095" y="277">Firebase</text>
-<rect x="815" y="277" width="102" height="37" rx="9" fill="#1A3042" stroke="#40697C"/><text x="828" y="301">TypeScript</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-label="Irfan Waseem developer portfolio banner">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#121918"/><stop offset="1" stop-color="#1f2a23"/></linearGradient><radialGradient id="glow"><stop stop-color="#c8ff58" stop-opacity=".5"/><stop offset="1" stop-color="#c8ff58" stop-opacity="0"/></radialGradient><pattern id="grid" width="31" height="31" patternUnits="userSpaceOnUse"><path d="M31 0H0V31" stroke="#adbdad" stroke-width=".6" fill="none" opacity=".13"/></pattern></defs>
+<rect width="1200" height="350" fill="url(#bg)" rx="18"/><rect width="1200" height="350" rx="18" fill="url(#grid)"/>
+<circle cx="980" cy="163" r="195" fill="url(#glow)"/>
+<g fill="none" stroke="#c8ff58" opacity=".55"><circle cx="970" cy="169" r="116" stroke-width="1.5"/><circle cx="970" cy="169" r="147" stroke-dasharray="6 9"><animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 970 169" to="360 970 169" dur="50s" repeatCount="indefinite"/></circle><circle cx="970" cy="169" r="180" stroke-width=".8" opacity=".7"/></g>
+<circle cx="970" cy="169" r="100" fill="#171e1a" stroke="#7f9b4e" stroke-width="2"/><text x="969" y="200" font-family="Arial, sans-serif" font-weight="900" font-size="83" text-anchor="middle" letter-spacing="-10" fill="#f0f1e4">I<tspan fill="#c8ff58">W</tspan></text><path d="M1116 45l10 17 18 3-13 13 2 18-17-8-17 8 3-18-13-13 18-3z" fill="#c8ff58"><animateTransform attributeName="transform" type="rotate" values="0 1116 72;20 1116 72;0 1116 72" dur="5s" repeatCount="indefinite"/></path>
+<rect x="48" y="35" width="14" height="14" rx="7" fill="#c8ff58"/><text x="76" y="47" font-family="Arial" font-weight="700" font-size="14" letter-spacing="2" fill="#a8c2a2">SOFTWARE DEVELOPER / PAKISTAN</text>
+<text x="48" y="124" font-family="Arial" font-weight="900" letter-spacing="-5" font-size="76" fill="#f5f2e9">MUHAMMAD IRFAN</text><text x="48" y="208" font-family="Arial" font-weight="900" letter-spacing="-5" font-size="86" fill="#c8ff58">WASEEM.</text><text x="52" y="258" font-family="Georgia" font-style="italic" font-size="30" fill="#dce2d8">I make complex feel simple.</text>
+<path d="M49 290H733" stroke="#5c6d60" stroke-width="1"/><text x="50" y="325" font-family="Arial" font-weight="700" font-size="14" letter-spacing="2" fill="#b4c0ae">FLUTTER  /  FULL STACK  /  CREATIVE PROBLEM SOLVING</text><text x="1139" y="316" text-anchor="end" font-family="Arial" font-size="13" font-weight="700" fill="#c8ff58" letter-spacing="2">2026 EDITION ↗</text>
 </svg>
