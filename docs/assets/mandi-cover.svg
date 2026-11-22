@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" role="img" aria-label="Concept artwork for Mandi Pro ERP">
+<defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#172845"/><stop offset="1" stop-color="#123A48"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="white" stroke-opacity=".065" fill="none"/></pattern></defs>
+<style>.up{animation:up 5s ease-in-out infinite}@keyframes up{50%{transform:translateY(-8px)}}@media(prefers-reduced-motion:reduce){.up{animation:none}}</style>
+<rect width="680" height="400" rx="20" fill="url(#a)"/><rect width="680" height="400" rx="20" fill="url(#g)"/>
+<circle cx="540" cy="150" r="190" fill="#fff" opacity=".035"/>
+<text x="36" y="52" fill="#FFFFFF" fill-opacity=".68" letter-spacing="3" font-family="Arial,sans-serif" font-size="13" font-weight="700">RICE MILL OPERATIONS</text>
+<text x="35" y="104" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="43" font-weight="800">Mandi Pro ERP</text>
+
+<g transform="translate(46 157)" stroke="#A3DDE9" stroke-width="2" fill="none"><rect width="574" height="166" rx="15" fill="#16344D"/><path d="M0 46H574M188 46V166M378 46V166" opacity=".6"/><g fill="#B6F2EC" stroke="none" font-family="monospace" font-size="18"><text x="20" y="31">PROCUREMENT</text><text x="211" y="31">PRODUCTION</text><text x="406" y="31">INVENTORY</text></g><path d="M30 112h122M218 128l28-43 27 23 35-39 36 45" stroke="#6FEBCC" stroke-width="5" stroke-linecap="round"/><rect x="412" y="93" width="27" height="50" rx="4" fill="#66B9B7"/><rect x="450" y="79" width="27" height="64" rx="4" fill="#74DDCE"/><rect x="488" y="62" width="27" height="81" rx="4" fill="#AFF5EB"/></g>
+<text x="38" y="370" fill="white" fill-opacity=".56" font-family="monospace" font-size="13">PRODUCT ENGINEERING  /  CASE STUDY</text>
+</svg>

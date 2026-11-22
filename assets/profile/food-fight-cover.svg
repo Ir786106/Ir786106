@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" role="img" aria-label="Concept artwork for Food Fight">
+<defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#17372E"/><stop offset="1" stop-color="#102335"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="white" stroke-opacity=".065" fill="none"/></pattern></defs>
+<style>.up{animation:up 5s ease-in-out infinite}@keyframes up{50%{transform:translateY(-8px)}}@media(prefers-reduced-motion:reduce){.up{animation:none}}</style>
+<rect width="680" height="400" rx="20" fill="url(#a)"/><rect width="680" height="400" rx="20" fill="url(#g)"/>
+<circle cx="540" cy="150" r="190" fill="#fff" opacity=".035"/>
+<text x="36" y="52" fill="#FFFFFF" fill-opacity=".68" letter-spacing="3" font-family="Arial,sans-serif" font-size="13" font-weight="700">MULTI-BRANCH DELIVERY</text>
+<text x="35" y="104" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="43" font-weight="800">Food Fight</text>
+
+<g class="up" transform="translate(58 148)" fill="none" stroke="#A4F8C9" stroke-width="2"><rect width="180" height="168" rx="18" fill="#163B32"/><rect x="15" y="18" width="150" height="15" rx="7" fill="#A4F8C9" opacity=".55"/><rect x="15" y="47" width="67" height="67" rx="10" fill="#3D7960"/><path d="M105 56H157M105 76H152M105 96H139" stroke-width="5" stroke-linecap="round"/><rect x="15" y="131" width="150" height="19" rx="9" fill="#6DCA97"/></g>
+<g transform="translate(302 190)" stroke="#B2F4D4" fill="none" stroke-width="4"><path d="M0 28H77" stroke-dasharray="6 11"/><path d="m65 17 14 11-14 11"/></g>
+<g class="up" transform="translate(405 160)" fill="none" stroke="#A4F8C9" stroke-width="2"><rect width="195" height="144" rx="18" fill="#15382E"/><circle cx="48" cy="51" r="23" fill="#386F58"/><path d="M88 42H171M88 60H156M26 107H170" stroke-linecap="round" stroke-width="7"/><text x="26" y="132" fill="#CBFFE3" stroke="none" font-size="15" font-family="monospace">ORDER CONFIRMED</text></g>
+<text x="38" y="370" fill="white" fill-opacity=".56" font-family="monospace" font-size="13">PRODUCT ENGINEERING  /  CASE STUDY</text>
+</svg>

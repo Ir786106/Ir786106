@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" role="img" aria-label="Concept artwork for TeamSync">
+<defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#2D2358"/><stop offset="1" stop-color="#18273D"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="white" stroke-opacity=".065" fill="none"/></pattern></defs>
+<style>.up{animation:up 5s ease-in-out infinite}@keyframes up{50%{transform:translateY(-8px)}}@media(prefers-reduced-motion:reduce){.up{animation:none}}</style>
+<rect width="680" height="400" rx="20" fill="url(#a)"/><rect width="680" height="400" rx="20" fill="url(#g)"/>
+<circle cx="540" cy="150" r="190" fill="#fff" opacity=".035"/>
+<text x="36" y="52" fill="#FFFFFF" fill-opacity=".68" letter-spacing="3" font-family="Arial,sans-serif" font-size="13" font-weight="700">WORKSPACE COLLABORATION</text>
+<text x="35" y="104" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="43" font-weight="800">TeamSync</text>
+
+<g transform="translate(78 150)" fill="none" stroke="#D1C4FF" stroke-width="2"><rect width="510" height="183" rx="16" fill="#2C2859"/><path d="M0 46H510M135 46V183" opacity=".55"/><g fill="#BDB2F4" stroke="none"><circle cx="22" cy="23" r="5"/><circle cx="39" cy="23" r="5"/><circle cx="56" cy="23" r="5"/></g><rect x="21" y="65" width="91" height="11" rx="5" fill="#B5A4F9"/><rect x="21" y="94" width="78" height="10" rx="5"/><rect x="21" y="124" width="68" height="10" rx="5"/><rect x="161" y="76" width="100" height="76" rx="9" fill="#4B4089"/><rect x="274" y="76" width="100" height="76" rx="9" fill="#4B4089"/><rect x="387" y="76" width="99" height="76" rx="9" fill="#4B4089"/><path d="M175 94h48m-48 16h70m44-16h40m-40 16h62m40-16h36m-36 16h59" stroke="#D4C8FF" stroke-width="6" stroke-linecap="round"/></g>
+<text x="38" y="370" fill="white" fill-opacity=".56" font-family="monospace" font-size="13">PRODUCT ENGINEERING  /  CASE STUDY</text>
+</svg>

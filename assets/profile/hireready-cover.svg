@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" role="img" aria-label="Concept artwork for HireReady PK">
+<defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#2B2D57"/><stop offset="1" stop-color="#113D4E"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="white" stroke-opacity=".065" fill="none"/></pattern></defs>
+<style>.up{animation:up 5s ease-in-out infinite}@keyframes up{50%{transform:translateY(-8px)}}@media(prefers-reduced-motion:reduce){.up{animation:none}}</style>
+<rect width="680" height="400" rx="20" fill="url(#a)"/><rect width="680" height="400" rx="20" fill="url(#g)"/>
+<circle cx="540" cy="150" r="190" fill="#fff" opacity=".035"/>
+<text x="36" y="52" fill="#FFFFFF" fill-opacity=".68" letter-spacing="3" font-family="Arial,sans-serif" font-size="13" font-weight="700">AI INTERVIEW PRACTICE</text>
+<text x="35" y="104" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="43" font-weight="800">HireReady PK</text>
+
+<g transform="translate(90 152)" fill="none" stroke="#A7E6F6" stroke-width="2"><rect width="500" height="168" rx="18" fill="#213A59"/><rect x="24" y="24" width="124" height="119" rx="14" fill="#3D5C81"/><circle cx="86" cy="62" r="23" fill="#8CCBD8"/><path d="M49 126c2-35 73-35 75 0" fill="#8CCBD8"/><rect x="183" y="35" width="274" height="25" rx="9" fill="#446A8D"/><rect x="183" y="76" width="225" height="10" rx="5" fill="#8BC9E5"/><rect x="183" y="96" width="252" height="10" rx="5" fill="#8BC9E5"/><rect x="183" y="116" width="180" height="10" rx="5" fill="#8BC9E5"/><path d="M468 113c14-16 14-34 0-50m-8 42c10-12 10-24 0-35" stroke="#7FF0E0" stroke-width="4"/></g>
+<text x="38" y="370" fill="white" fill-opacity=".56" font-family="monospace" font-size="13">PRODUCT ENGINEERING  /  CASE STUDY</text>
+</svg>

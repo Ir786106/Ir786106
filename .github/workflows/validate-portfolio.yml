@@ -1,0 +1,32 @@
+name: Validate portfolio files
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'assets/profile/**'
+      - 'docs/**'
+      - 'scripts/validate-site.mjs'
+      - '.github/workflows/validate-portfolio.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'assets/profile/**'
+      - 'docs/**'
+      - 'scripts/validate-site.mjs'
+      - '.github/workflows/validate-portfolio.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate script syntax
+        run: node --check docs/script.js
+      - name: Validate local website and README references
+        run: node scripts/validate-site.mjs
