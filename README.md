@@ -1,10 +1,10 @@
 <div align="center">
   <a href="https://ir786106.github.io/Ir786106/">
-    <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — I make complex feel simple. Developer portfolio banner." />
+    <img src="assets/profile/hero.svg" width="100%" alt="Muhammad Irfan Waseem — Designing what's next. Studio edition creative developer portfolio." />
   </a>
   
-  <h2>Software development, with intention.</h2>
-  <p>Flutter apps · Full-stack platforms · Security-aware engineering</p>
+  <h2>Code meets craft.</h2>
+  <p>Mobile applications · Full-stack products · Thoughtful interfaces</p>
   <p>
     <a href="https://ir786106.github.io/Ir786106/"><b>↗ Explore portfolio</b></a>
     &nbsp; · &nbsp;
@@ -24,7 +24,7 @@
 
 I'm **Muhammad Irfan Waseem**, a BS Computer Science student at COMSATS University Islamabad — Sahiwal Campus (class of 2027), based in Pakistan.
 
-I enjoy building **usable mobile products, operational software, and clean full-stack experiences**. I'm interested in the small details that make complex systems feel straightforward, and I'm continually learning more about practical application security.
+I enjoy building **usable mobile products, operational software, and clean full-stack experiences**. I'm interested in the connections between thoughtful design and dependable engineering, and I'm continually learning more about practical application security.
 
 ### `02` / SELECTED PROJECTS
 
